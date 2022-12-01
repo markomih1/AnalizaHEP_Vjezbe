@@ -727,3 +727,61 @@ ls
 rm Makefile 
 cd makefile
 nano makefile
+ls
+mkdir vj7
+cd vj6
+cd
+cd vj7
+root 
+root /home/public/data/ggH125/ZZ4lAnalysis.root
+ls
+nano nesto.h
+cd
+ls
+rm -r kolpr
+cd kolpr
+ls
+rm -r z2
+ls
+cd
+rm -r kolpr
+ls
+cd kolpr
+ls
+cd z2
+ls
+rm analyze 
+rm Analyzer.o 
+ls
+cd
+čs
+ls
+cd kolpr
+ls
+rm z2
+rm -r z2
+ls
+cd
+ls
+cd kolpr
+ls
+rm -r z2
+ls
+rm -f z2
+ls
+cd
+ls
+rm -f /kolpr/z2
+cd kolpr
+ls
+rm -rf z2
+ls
+cd
+ls
+rm -r kolpr
+ls
+git init
+git add -a
+git add -A
+git commit -m "firstt"
+git push
