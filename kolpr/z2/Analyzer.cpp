@@ -67,7 +67,7 @@ if (fChain == 0) return;
   gStyle->SetOptStat(0);
 TCanvas* canvas = new TCanvas();
   canvas->SetCanvasSize(1500, 700);
-canvas->Divide(2,1);
+canvas->Divide(2,2);
 canvas->cd(1);
 	h1->Draw("HISTO");
 	h1->GetXaxis()->SetTitle("ele_pt");
