@@ -630,3 +630,100 @@ make
 s
 ls
 root
+s
+ls
+cd vj5
+cd
+cd vj6
+ls
+root
+cd
+ls
+git init
+git add -A
+git commit -m "neki opis"
+git push
+cd vj6
+ls
+nano Analyzer.cpp
+nano analyze.cšš
+nano analyze.cp
+nano analyze.cpp
+./analyze
+git init
+git add -A
+git commit -m "neki opis"
+git push
+ls
+cd
+git init
+git add -A
+git commit -m "neki opis"
+git push
+ls
+cd
+ls
+cd vj5
+ls
+cd
+cd vj6
+ls
+nano Makefile 
+nano Analyzer.h
+cd
+cd vj3
+ls
+nano ElementaryParticle.h
+mkdir prk
+cd prk
+nano Statistics.cpp
+nano Statistics.h
+nano analyze.cpp
+nano Makefile
+nano MakeFile
+LS
+ls
+nano Makefile
+make
+ls
+./analyze 
+cd
+rm prk
+rm -r prk
+ls
+ls
+cd vj5
+ls
+cd 
+cd vj6
+ls
+nano analyze.cpp
+ls
+cd kolprob
+mkdir kolpr
+cd kolpr
+mkdir z1
+ls
+cd z1
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+make
+nano Analyzer.cpp
+make
+./analyze
+cd
+ls
+cd kolpr
+ls
+mkdir z2
+cd z2
+ls
+clear
+ls
+nano Makefile
+ls
+rm Makefile 
+cd makefile
+nano makefile
