@@ -87,7 +87,16 @@ canvas->cd(3);
 	h4->Draw("histo same");
 	h3->SetLineColor(kRed);
 	h4->SetFillColor(kBlue);
+
 	canvas->SaveAs("2abc.png");
+
+
+
+canvas->cd(4);
+        h2->GetXaxis()->SetTitle("ele_pt");
+        h2->GetYaxis()->SetTitle("scl_eta");
+        h2->Draw("COLZ");
+
 }
 
 
