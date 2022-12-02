@@ -785,3 +785,63 @@ git add -a
 git add -A
 git commit -m "firstt"
 git push
+cd vj5
+root
+ls
+cd kolpr
+ls
+cd z2
+ls
+nano makefile 
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Analyzer.cpp
+nano analyze.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+./analyze
+ls
+nano 2abc.png 
+cd
+git init
+git add -A
+git commite -m "nesto"
+git commit -m "nesto"
+git push
+ls
+cd kolpr
+ls
+cd z2
+nano Analyzer.cpp
+make
+./analyze
+git add -A
+git init
+git add -A
+git commit -m "nesto"
+git push
+git init
+git add -A
+git commit -m "nes"
+cd
+git commit -m "nes"
+git push
+cd kolpr
+cd z2
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git commit -m "nes"
+git add -A
+git commit -m "ne"
+git push
