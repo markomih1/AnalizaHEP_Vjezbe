@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////
 // This class has been automatically generated on
-// Fri Dec  2 08:36:18 2022 by ROOT version 6.24/08
+// Fri Dec  2 08:59:21 2022 by ROOT version 6.24/08
 // from TTree Events/Events
 // found on file: /home/public/data/JPsi/TnPpairs_MC.root
 //////////////////////////////////////////////////////////
@@ -11,22 +11,17 @@
 #include <TROOT.h>
 #include <TChain.h>
 #include <TFile.h>
-
-// Header file for the classes stored in the TTree if any.
-#include "vector"
-
-#include <TROOT.h>
-#include <TChain.h>
-#include <TFile.h>
-#include <TH1F.h>
 #include <TCanvas.h>
-#include <TString.h>
-#include <TLegend.h>
+#include <TH2F.h>
 #include <TLorentzVector.h>
 
-//C++ libraries
-#include <iostream>
+// Header file for the classes stored in the TTree if any.
 #include <vector>
+#include <iostream>
+
+using namespace std;
+
+
 class Analyzer {
 public :
    TTree          *fChain;   //!pointer to the analyzed TTree or TChain
@@ -55,6 +50,12 @@ public :
    virtual void     Loop();
    virtual Bool_t   Notify();
    virtual void     Show(Long64_t entry = -1);
+   virtual void Plot2DHistogram();
+   private:
+   TCanvas *canvas;
+   TH2F *h1;
+   TLorentzVector elektron, pozitron, Jpsi;
+   Long64_t entries;
 };
 
 #endif

@@ -1,79 +1,3 @@
-exit
-ls
-mkdir vj1
-touch z6.cpp
-ls
-nano z6.cpp
-ls
-nano z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-./z6
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-./z6
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-vim z6.cpp
-g++ -o z6 z6.cpp
-./z6
-vim z6.cpp
-exit
-ls
-nano z6.cpp
-vim z6
-ls
-vim z6.cpp
-ls
-cd -
-ssh-keygen -t rsa -b 4096 -C "mmihovilovic@pmfst.hr"
-exit
-cd -
-cd ~
-ssh-keygen -t rsa -b 4096 -C "mmihovilovic@pmfst.hr"
-eval "$(ssh-agent -s)"
-ssh-add -k ~/.ssh/id_rsa
-ls
-exit
-cd ~
-ssh-keygen -t rsa -b 4096 -C "mmihovilovic@pmfst.hr"
-s
-ls
-vim key.pub
-git init 
-echo "# AnalizaHEP_Vjezbe" >> README.md 
-git init
-git add README.md
-git config --global user.name "markomih1"
-git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git push -u origin master 
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/markomih1/AnaizaHEP_Vjezbe.git
-git push -u origin main
-ls
-git remote add origin git@github.com:markomih1/AnaizaHEP_Vjezbe.git
-git push -u origin main
-s 
-ls
-vim README.md 
-ls
 rm README.md 
 ls
 echo "# Analiza" >> READE.md
@@ -965,3 +889,112 @@ git init
 git add -A
 git commit -m "kolokvij"
 git push
+ls
+cd vj5
+ls
+ls
+cd vj5
+ls
+root /home/public/data/ggH125/ZZ4lAnalysis.root
+ls
+nano NESTO.h
+ls
+rm NESTO.*
+ls
+cd
+ls
+cd kol1
+ls
+cd z1
+ls
+rm an*
+ls
+cd G*
+rm G*
+L
+ls
+cd Generator.cpp
+nano Generator.cpp
+nano Generator.h
+nano Generator.cpp
+nano Generator.h
+nano generate.cpp
+nano Makefile 
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+./generate
+ls
+nano Generator.cpp
+nano Generator.h
+nano generator.cpp
+nano generate.cpp
+make
+./generate 
+cd
+cd z3
+cd
+cd kol1
+cd z3
+ls
+mkdir z3
+cd z3
+nano Generator.h
+nano Generator.h 
+rm G*
+LS
+ls
+nano Generator.h 
+nano Generator.cpp
+nano generate.cpp
+nano Makefile
+make
+./generate
+cd
+cd kol1
+ls
+cd z1
+ls
+nano generate.cpp
+nano Generator.h
+nano Generator.cpp
+make
+./generate 
+nano Generator.cpp
+MAKE
+make
+./generate 
+ls
+cd
+git init
+git add -a
+git add -all
+git add -_all
+git add --all
+git commit "ness"
+git commit -m "first commit"
+git push
+cd kol1
+ls
+cd z1
+nano Generator.cpp
+make
+./generate 
+git add --all
+git push
+git commit -m "first commit"
+git add --all
+git push
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+./generate 

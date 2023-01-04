@@ -1,23 +1,10 @@
-#include <iostream>
-#include <TROOT.h>
-#include <TFile.h>
-#include <TChain.h>
-#include <TApplication.h>
 #include "Analyzer.h"
-#include <cstdlib>
-#include <ctime>
-#include <cmath>
-#include <random>
-#include <fstream>
-#include <TROOT.h>
-#include <TChain.h>
-#include <TFile.h>
-#include <TApplication.h>
-using namespace std;
-int main()
-{
-    Analyzer *analysis;
-    analysis=new Analyzer();
-//    analysis->Plot();
-    return 0;
+
+int main (void){
+	Analyzer *analyze;
+	analyze = new Analyzer ();
+	analyze -> Plot2DHistogram ();
+	//analyze -> ~Analyzer ();
+
+	return 0;
 }
