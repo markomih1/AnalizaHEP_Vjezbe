@@ -71,5 +71,7 @@ h1=new TH2F("mass  vs dR","2D histogram mass  vs dR", 100,2,4,100,0,1.5);
 }
 
 h1->Draw("COLZ");	
-
+canvas -> Print ("zad2.pdf");
+	canvas -> Print ("zad2.png");
+	canvas -> Print ("zad2.root");
 }
