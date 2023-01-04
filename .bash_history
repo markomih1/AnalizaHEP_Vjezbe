@@ -845,3 +845,123 @@ git commit -m "nes"
 git add -A
 git commit -m "ne"
 git push
+ls
+mkdir
+mkdir kol1
+ls
+cd kol1
+ls
+mkdir z1
+ls
+cd z1
+nano Generator.cpp
+nano Generator.h
+nano Generator.cpp
+nano analyze.cpp
+nano Makefile
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+nano analyze.cpp
+nano Generator.cpp
+nano analyze.cpp
+makeđ
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+cd
+ls
+cd kol1
+mkdir z2
+ls
+cd z2
+root /home/public/data/JPsi/TnPpairs_MC.root
+ls
+nano Analyzer.h
+nano Makefile
+nano Analyzer.cpp
+nano Analyzer.h
+rm Analyzer.cpp
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+make
+ls
+nano analyze.cpp
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+nano analyze.cpp
+make
+ls
+nano Analyzer.h
+make
+cd
+ls
+cd kol1
+ls
+cd z1
+ls
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+nano analyze.cpp
+make
+nano Generator.cpp
+nano analyze.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+nano analyze.cpp
+make
+nano Generator.cpp
+nano analyze.cpp
+make
+nano analyze.cpp
+make
+nano analyze.cpp
+make
+nano Generator.cpp
+nano Generator.h
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+make
+nano Generator.cpp
+nano Generator.h
+nano analyze.cpp
+make
+./analyze
+nano Generator.cpp
+make
+./analyze
+nano Generator.cpp
+make
+./analysis
+./analyze
+cd
+ls
+git init
+git add -A
+git commit -m "kolokvij"
+git push
