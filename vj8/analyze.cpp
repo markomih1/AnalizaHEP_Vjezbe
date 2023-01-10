@@ -18,7 +18,7 @@ int main()
   analyzer->PlotHistogram("/home/public/data/qqZZ/ZZ4lAnalysis.root");
 
   analyzer->FitHiggs();
- // analyzer->FitFullMass();
+  analyzer->FitFullMass();
 
   delete analyzer;
 

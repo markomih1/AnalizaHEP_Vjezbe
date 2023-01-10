@@ -1449,7 +1449,7 @@ public :
    virtual Bool_t   Notify();
    virtual void     Show(Long64_t entry = -1);
    virtual void     FitHiggs();
-
+   virtual void     FitFullMass();
 private:
    TCanvas *c;
    TString histo_name;

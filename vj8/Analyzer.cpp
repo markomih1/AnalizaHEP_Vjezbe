@@ -456,6 +456,49 @@ c->cd(1);
 
 
 
+void Analyzer::FitFullMass()
+{
+  c = new TCanvas("c4","c4",900,900);
+
+  TH1F *Mass_histo_total = new TH1F("Mass_histo_total", "Reconstructed four lepton invariant mass", 50, 70., 170.);
+  Mass_histo_total->Add(Mass_histo_background);
+  Mass_histo_total->Add(Mass_histo_signal);
+
+  Total = new TF1("Model function","([0]*[1])/(TMath::Power((x*x-[2]*[2]),2)+ 0.25*[1]*[1]) + ([3]*[4])/(TMath::Power((x*x-[5]*[5]),2) + 0.25*[4]*[4])+[6]+[7]*x+[8]*x*x",70,150);
+
+  Total->SetParNames("D_{1}","#Gamma_{1}","M_{1}","D_{2}","#Gamma_{2}","M_{2}","A","B","C");
+
+  Total->SetParameter(0,70.);
+  Total->SetParameter(1,200.);
+  Total->SetParameter(2,125.);
+  Total->SetParameter(3,70.);
+  Total->SetParameter(4,200.);
+  Total->SetParameter(5,90.);
+  Total->SetParameter(6,1.);
+  Total->SetParameter(7,0.01);
+  Total->SetParameter(8,-0.0001);
+
+  Total->SetLineColor(kMagenta);
+
+  Total->SetTitle("Fit function;Mass [GeV];Events");
+
+  Mass_histo_total->SetBinErrorOption(TH1::kPoisson);
+  Mass_histo_total->SetLineColor(kBlack);
+  Mass_histo_total->SetMarkerStyle(20);
+  Mass_histo_total->SetMarkerSize(0.9);
+
+  Mass_histo_total->GetXaxis()->SetTitle("Mass [GeV]");
+  Mass_histo_total->GetYaxis()->SetTitle("Events / 2 GeV");
+
+  Mass_histo_total->Fit(Total, "L");
+  gStyle->SetOptFit();
+  Mass_histo_total->Draw("p E1 X0");
+
+  SavePlots(c,"ParameterEstimation_FullMass");
+
+  delete Mass_histo_total,c;
+}
+
 
 
 
