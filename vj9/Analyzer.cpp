@@ -61,7 +61,7 @@ Likelihood = new TF1("Likelihood","([0]/x)*exp(-1.0/x)",0.1,10);
   canvas2->SaveAs("Likelihood.pdf");
 
   delete Likelihood;
-  LogLikelihood = new TF1("LogLikelihood","-2*([0]*log(1./[1])-x/[1])",0.1,5); // mogu uzet C=1, rezultat ostaje isti
+  LogLikelihood = new TF1("LogLikelihood","-2*([0]*log(1./x)-[1]/x)",0.1,5); // mogu uzet C=1, rezultat ostaje isti
   LogLikelihood->SetParameter(0,nentries);
   LogLikelihood->SetParameter(1,sum);
   canvas3=new TCanvas("canvas1","canvas1",600,400);
