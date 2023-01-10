@@ -1,24 +1,37 @@
 //////////////////////////////////////////////////////////
 // This class has been automatically generated on
-// Thu Dec  1 20:04:34 2022 by ROOT version 6.24/08
+// Fri Oct  4 10:02:18 2019 by ROOT version 6.18/02
 // from TTree candTree/Event Summary
 // found on file: /home/public/data/ggH125/ZZ4lAnalysis.root
 //////////////////////////////////////////////////////////
 
-#ifndef nesto_h
-#define nesto_h
+#ifndef Analyzer_h
+#define Analyzer_h
 
 #include <TROOT.h>
 #include <TChain.h>
 #include <TFile.h>
+#include <TH1F.h>
+#include <TCanvas.h>
+#include <TString.h>
+#include <TLegend.h>
+#include <TLorentzVector.h>
 
-// Header file for the classes stored in the TTree if any.
-#include "vector"
-#include "vector"
-#include "vector"
-#include "vector"
+#include <TLorentzVector.h>
+#include <THStack.h>
+#include <TGraph.h>
+#include <TH2F.h>
 
-class nesto {
+
+
+//C++ libraries
+#include <iostream>
+#include <vector>
+
+
+using namespace std;
+
+class Analyzer {
 public :
    TTree          *fChain;   //!pointer to the analyzed TTree or TChain
    Int_t           fCurrent; //!current Tree number in a TChain
@@ -1427,49 +1440,60 @@ public :
    TBranch        *b_p_Gen_GG_SIG_gXg5_1_gXz9_1_JHUGen;   //!
    TBranch        *b_p_Gen_GG_SIG_gXg5_1_gXz10_1_JHUGen;   //!
 
-   nesto(TTree *tree=0);
-   virtual ~nesto();
+   Analyzer();
+   virtual ~Analyzer();
    virtual Int_t    Cut(Long64_t entry);
    virtual Int_t    GetEntry(Long64_t entry);
    virtual Long64_t LoadTree(Long64_t entry);
    virtual void     Init(TTree *tree);
-   virtual void     Loop();
+   virtual void     PlotHistogram(TString input_file_name);
+   virtual void     PlotMass();
    virtual Bool_t   Notify();
    virtual void     Show(Long64_t entry = -1);
+	 virtual void     PlotDkin();
+private:
+   TCanvas *c;
+   TString histo_name;
+
+   TH1F *LeptonPt_histo[4];
+   TH1F *LeptonEta_histo[4];
+   TH1F *LeptonPhi_histo[4];
+   TH1F *LeptonBDT_histo[4];
+
+   TH1F *Mass_histo_signal, *Mass_histo_background;
+   TH1F *Dkin_histo_signal, *Dkin_histo_background;
+   TH1F *Mass_histo;
+
+   TH2F *histo_signal, *histo_background;
+   TLorentzVector lep0,lep1,lep2,lep3;
+   TLorentzVector Z1, Z2;
+   TLorentzVector Higgs;
+
+   TFile *input_file;
+   TTree *input_tree;
+   float gen_sum_weights, _event_weight;
+   TH1F *hCounters;
+
+   float Dkin;
+   TLegend *legend;
+
+   TLegend* CreateLegend(TH1F *lepton_1, TH1F *lepton_2, TH1F *lepton_3, TH1F *lepton_4);
+
+   void SavePlots(TCanvas *c, TString name);
 };
 
 #endif
 
-#ifdef nesto_cxx
-nesto::nesto(TTree *tree) : fChain(0) 
-{
-// if parameter tree is not specified (or zero), connect the file
-// used to generate this class and read the Tree.
-   if (tree == 0) {
-      TFile *f = (TFile*)gROOT->GetListOfFiles()->FindObject("/home/public/data/ggH125/ZZ4lAnalysis.root");
-      if (!f || !f->IsOpen()) {
-         f = new TFile("/home/public/data/ggH125/ZZ4lAnalysis.root");
-      }
-      TDirectory * dir = (TDirectory*)f->Get("/home/public/data/ggH125/ZZ4lAnalysis.root:/ZZTree");
-      dir->GetObject("candTree",tree);
+#ifdef Analyzer_cxx
 
-   }
-   Init(tree);
-}
 
-nesto::~nesto()
-{
-   if (!fChain) return;
-   delete fChain->GetCurrentFile();
-}
-
-Int_t nesto::GetEntry(Long64_t entry)
+Int_t Analyzer::GetEntry(Long64_t entry)
 {
 // Read contents of entry.
    if (!fChain) return 0;
    return fChain->GetEntry(entry);
 }
-Long64_t nesto::LoadTree(Long64_t entry)
+Long64_t Analyzer::LoadTree(Long64_t entry)
 {
 // Set the environment to read one entry
    if (!fChain) return -5;
@@ -1482,7 +1506,7 @@ Long64_t nesto::LoadTree(Long64_t entry)
    return centry;
 }
 
-void nesto::Init(TTree *tree)
+void Analyzer::Init(TTree *tree)
 {
    // The Init() function is called when the selector needs to initialize
    // a new tree or chain. Typically here the branch addresses and branch
@@ -2285,7 +2309,7 @@ void nesto::Init(TTree *tree)
    Notify();
 }
 
-Bool_t nesto::Notify()
+Bool_t Analyzer::Notify()
 {
    // The Notify() function is called when a new file is opened. This
    // can be either for a new TTree in a TChain or when when a new TTree
@@ -2296,18 +2320,18 @@ Bool_t nesto::Notify()
    return kTRUE;
 }
 
-void nesto::Show(Long64_t entry)
+void Analyzer::Show(Long64_t entry)
 {
 // Print contents of entry.
 // If entry is not specified, print current entry
    if (!fChain) return;
    fChain->Show(entry);
 }
-Int_t nesto::Cut(Long64_t entry)
+Int_t Analyzer::Cut(Long64_t entry)
 {
 // This function may be called from Loop.
 // returns  1 if entry is accepted.
 // returns -1 otherwise.
    return 1;
 }
-#endif // #ifdef nesto_cxx
+#endif // #ifdef Analyzer_cxx

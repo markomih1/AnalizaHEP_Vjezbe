@@ -116,3 +116,7 @@ TTree->MakeClass("Analyzer")
 Events->MakeClass("Analyzer")
 .ls
 .q
+.ls
+_file0->ls()
+_file0->ls()
+.q

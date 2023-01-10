@@ -1,102 +1,3 @@
-rm README.md 
-ls
-echo "# Analiza" >> READE.md
-s
-ls
-git init
-git add READE.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@githu.com:markomih1/AnaizaHEP_Vjezbe.git 
-git push -u origin main
-clear
-
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjeze.gi
-git branch -M main
-git push -u origin main
-git commit 
-git commit -a
-ls
-vit z6.cpp
-vim z6.cpp 
-g++ -o z6 z6.cpp
-vim z6.cpp 
-g++ -o z6 z6.cpp
-vim z6.cpp 
-g++ -o z6 z6.cpp
-vim z6.cpp 
-g++ -o z6 z6.cpp
-vim z6.cpp 
-ls
-cd vj1
-ls
-cs
-cd
-ls
-rm z6
-rm z6.cpp
-cd vj1
-vim z6.cpp
-g++ -o z6 z6.cpp
-./z6
-vim z6.cpp
-ls
-cd
-ls
-cd vj1
-ls
-vim z6.cpp
-cd ~/Vjezbe
-ls
-cd
-cd ~/Vjezbe
-echo "# AnalizaHEP_Vjezbe" >> README.md
- git init
- git add README.md
-git config --global user.name "GitHubUsername"
-git config --global user.name "markomih1"
- git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git push -u origin master
-exit
-ls
-rm READE.md 
-rm README.md 
-ls
-cd ~/vj1
-cd
-echo "#AnalizaHEP_Vjezbe" >> README.md
-git init
-git add README.md
-git config --global user.name "markomih1"
-git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git push -u origin master
-exit
-ls
-git push
-git init
-git push
-ls
-clear
-ls
-rm key
-rm key.pub 
-rm README.md 
-LS
-ls
-cd vj1
-ls
-cd
-ls
-cd ~
-ssh-keygen -t rsa -b 4096 -C "mmihovilo@pmfst.hr"
-eval "$(ssh-agent -s)"
-ssh-add -k ~/.ssh/id_rsa.pub
-ls
-ssh-add -k ~/.ssh/key.pub
 ls
 vim key.pub
 ls
@@ -998,3 +899,102 @@ make
 nano Generator.cpp
 make
 ./generate 
+ls
+cd ko1l
+cd kol1
+ks
+ls
+cd z2
+ls
+nano Analyzer.h
+nano Analyzer.cpp
+nano analyze.cpp
+nano Makefile 
+MAKEW
+make
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+make
+nano Analyzer.cpp
+make
+nano analyze.cpp
+make
+nano Analyzer.h
+nano analyze.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.h
+nano analyze.cpp
+make
+nano analyze.cpp
+nano Analyzer.cpp
+rm Analyzer.h
+nanp Analyzer.h
+nano Analyzer.h
+make
+nanp Analyzer.h
+nano Analyzer.h
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git init
+git add -all
+git add --all
+git commit -m
+git push
+git commit -m "nesto"
+git add --all
+git push
+ls
+cd kol1
+ls
+cd z2
+ls
+nano Analyzer.cpp
+make
+ls
+cd
+git commit -m "nesto"
+git add --all
+git push
+cd kol1/z2
+ls
+./analyze 
+ls
+cd
+git commit -m "nesto"
+git add --all
+git push
+cd kol1/z2
+ls
+cd
+git commit -m "n"
+git add -A
+git push
+ls
+cd kol1
+ls
+cd z2
+ls
+cd
+cd kol1
+cd z2
+ls
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Analyzer.cpp
+ls
+rm Analyzer.h
+root /home/public/data/JPsi/TnPpairs_MC.root
+ls
+nano Analyzer.h
+ls
+mkdir vj
+cd vj
+root /home/pulic/data/Lifetime.root
+ls
+cd
