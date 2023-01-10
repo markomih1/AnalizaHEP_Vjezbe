@@ -19,6 +19,7 @@
 #include <THStack.h>
 #include <TGraph.h>
 #include <TH2F.h>
+#include <TF1.h>
 
 //C++ libraries
 #include <iostream>
@@ -1447,6 +1448,7 @@ public :
    virtual void     PlotDkin();
    virtual Bool_t   Notify();
    virtual void     Show(Long64_t entry = -1);
+   virtual void     FitHiggs();
 
 private:
    TCanvas *c;
@@ -1457,6 +1459,7 @@ private:
    TH1F *LeptonPhi_histo[4];
    TH1F *LeptonBDT_histo[4];
 
+ TF1 *BW, *Q, *Total;
    TH1F *Mass_histo_signal, *Mass_histo_background;
    TH1F *Dkin_histo_signal, *Dkin_histo_background;
 

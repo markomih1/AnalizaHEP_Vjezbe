@@ -386,6 +386,88 @@ TLegend* Analyzer::CreateLegend(TH1F *lepton_1, TH1F *lepton_2, TH1F *lepton_3, 
 
   return leg;
 }
+void Analyzer::FitHiggs()
+{
+  c = new TCanvas("c3","c3",1200,800);
+  c->Divide(2);
+  TH1F *Mass_histo_total = new TH1F("Mass_histo_total", "Reconstructed four lepton invariant mass", 50, 70., 170.);
+  Mass_histo_total->Add(Mass_histo_background);
+  Mass_histo_total->Add(Mass_histo_signal);
+
+  BW = new TF1("Breight-Wigner functin","([0]*[1])/(TMath::Power((x*x-[2]*[2]),2) + 0.25*[1]*[1])",110,150);
+
+  BW->SetParNames("D","#Gamma","M");
+
+  BW->SetParameter(0,2.04151e+04);
+  BW->SetParameter(1,8.29920e+02);
+  BW->SetParameter(2,1.24443e+02);
+
+  BW->SetLineColor(kBlue);
+
+  Q = new TF1("Quadratic function","[0]+[1]*x+[2]*x*x",110,150);
+
+  Q->SetParNames("A","B","C");
+
+  Q->SetParameter(0,5.18051e+01);
+  Q->SetParameter(1,-6.21340e-01);
+  Q->SetParameter(2,2.45098e-03);
+
+  Q->SetLineColor(kRed);
+
+   Total = new TF1("Model function","([0]*[1])/(TMath::Power((x*x-[2]*[2]),2) + 0.25*[1]*[1])+[3]+[4]*x+[5]*x*x",110,150);
+
+  Total->SetParNames("D","#Gamma","M","A","B","C");
+
+  Total->SetParameter(0,70.);
+  Total->SetParameter(1,200.);
+  Total->SetParameter(2,125.);
+  Total->SetParameter(3,1.);
+  Total->SetParameter(4,0.01);
+  Total->SetParameter(5,-0.0001);
+
+  Total->SetLineColor(kMagenta);
+
+  Total->SetTitle("Fit function;Mass [GeV];Events");
+
+
+c->cd(1);
+
+  Total->Draw();
+  BW->Draw("SAME");
+  Q->Draw("SAME");
+ c->cd(2);
+  Mass_histo_total->SetBinErrorOption(TH1::kPoisson);
+  Mass_histo_total->SetLineColor(kBlack);
+  Mass_histo_total->SetMarkerStyle(20);
+  Mass_histo_total->SetMarkerSize(0.7);
+  Mass_histo_total->GetXaxis()->SetRangeUser(110.,150.);
+
+  Mass_histo_total->GetXaxis()->SetTitle("Mass [GeV]");
+  Mass_histo_total->GetYaxis()->SetTitle("Events / 2 GeV");
+
+  Mass_histo_total->Fit(Total);
+  gStyle->SetOptFit();
+  Mass_histo_total->Draw("p E1 X0");
+
+  SavePlots(c,"ParameterEstimation");
+
+  delete Mass_histo_total,c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 void Analyzer::SavePlots(TCanvas *c, TString name)
 {
