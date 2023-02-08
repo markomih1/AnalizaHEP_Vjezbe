@@ -1,82 +1,3 @@
-mkdir vj4
-sl
-ls
-cp vj3/Analysis.txt vj4
-ls
-cd vj4
-sl
-ls
-cd
-root
-ls
-cd vj3
-ls
-vim ElementaryParticle.cpp
-cd
-root
-cd /home/pubic/data
-root
-cd vj3
-ls
-nano Analysis.txt 
-vim ElementaryParticle.cpp
-root
-cd
-root
-ls
-cd vj3
-ls
-vim ElementaryParticle.cpp
-root
-ls
-cd vj4
-ls
-vim analyze.cpp
-ls
-nano analyze.cpp
-nano Analyzer.cpp
-lks
-ls
-nano Analysis.txt 
-nano Analyzer.cpp
-nano Analyzer.h
-nano Makefile
-nano Analyzer.cpp
-rm Analyzer.cpp
-nano Analyzer.cpp
-root
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-root
-ls
-cd vj4
-cd
-cd vj4
-ls
-vim Analyzer.cpp 
-cd
-ls
-cd vj4
-ls
-vim Analyzer.cpp 
-root
-ls
-cd vj4
-ls
-vim Analyzer.cpp 
-rm Analyzer.cpp
-ls
-rm analyze.cpp 
-rm Analyzer.h 
-ls
-vim Analyzer.cpp
-cd Analyzer.cpp
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Makefile 
-make
-ls
-nano analyze
 cd
 cd vj5
 root
@@ -998,3 +919,82 @@ ls
 cd vj1
 ls
 root /home/public/data/ggH125/ZZ4lAnalysis.root
+ls
+git init
+git add -A
+git commit -m "dqwd"
+ls
+cd vj11
+ls
+nano Analyzer.cpp
+git init
+cd
+git init
+git add -a
+git add -all
+git add --all
+git commit -m "vj11""
+git init
+git add -A
+git commit -m "wqdqw""
+
+ls
+git init
+git commit -m "firsttt comiit"
+git add -A
+git push
+ls
+mkdir vj13
+cd vj13
+ls
+root /home/public/data/Height/Height.root
+ls
+nano Analyzer.h
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+make
+nano Analyzer.h
+make
+nano Analyzer.h
+make
+nano Analyzer.h
+make
+nano Analyzer.h
+make
+./analyze
+ls
+./analyze
+cd
+ls
+cd vj7
+ls
+./analyze
+./analyze 
+cd
+cd vj13
+ls
+rm Analyzer.*
+ls
+rm an*
+nano Analyer.h
+nano Analyer.cpp
+nano analyze.cpp
+make
+ren Analyer.h Analyzer.h
+rm Analyer.h
+nano Analyer.h
+make
+rm Analyer.h
+LS
+ls
+rm Analyer.cpp 
+nano Analyzer.h
+nano Analyzer.cpp
+make
+./analyze 
+cd
+mkdir vj14
+cd vj14
+ls
