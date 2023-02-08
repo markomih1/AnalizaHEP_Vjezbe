@@ -40,6 +40,7 @@ HistoLikelihood->Fit(funkc,"L","",0,10);
   canvas1=new TCanvas("canvas1","canvas1",600,600);
 
   HistoLikelihood->Draw("HIST");
+  funkc->Draw("SAME");
   canvas1->SaveAs("LiKelihood.pdf");
 
 }
