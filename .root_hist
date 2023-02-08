@@ -2,3 +2,32 @@ TFile *_file0 = TFile::Open("/home/public/data/Lifetime/Lifetime.root")
 ls
 .ls
 .q
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Height/Height.root")
+new TBrowser
+:q
+.q
+TFile *_file0 = TFile::Open("/home/public/data/ElectronTraining/Electrons.root")
+new TBrowser
+TFile *_file0 = TFile::Open("/home/public/data/ElectronTraining/Electrons.root")
+new TBrowser
+_file0->ls()
+Tree->MakeClass("Analyzer")
+TTree->MakeClass("Analyzer")
+candTree->MakeClass("Analyzer")
+_file0->cd("TTree")
+_file0->s
+_file0->ls
+q
+.q
+root /home/public/data/ElectronTraining/Electrons.root
+.q
+TFile *_file0 = TFile::Open("/home/public/data/ElectronTraining/Electrons.root")
+_file0->ls()
+Tree->MakeClass("Analyzer")
+candTree->MakeClass("Analyzer")
+new TBrowser
+new TBrowser
+.q
+TFile *_file0 = TFile::Open("/home/public/data/ggH125/ZZ4lAnalysis.root")
+.ls

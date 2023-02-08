@@ -1,260 +1,3 @@
-ls
-vim key.pub
-ls
-echo "analiza" >> README.md
-git init
-git config --global user.name "markomih1"
-git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-
-git push -u origin master
-ls
-rm README.md 
-rm key
-rm key.pub 
-ls
-clear
-ls
-ssh-keygen -t rsa -b 4096 -C "mmihovilo@pmfst.hr"
-ls
-vim key.pub
-ls
-echo "#AnalizaHEP" >> README.md
-ls
-vim README.md 
-ls
-git init
-git config --global user.name "markomih1"
-git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git push -u origin master
-git config --get remote.origin.url
-cat ~/.ssh/id_rsa.pub
-ls
-rm README.md 
-ls
-echo "#AnalizaHEP_Vjezbe" >> README.md
-git init
-git add READE.md
-git config --global user.name "markomih1"
-git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git push -u origin master
-git push
-git config --global oush.default matching
-git config --global push.default matching
-git push -u origin master
-ls
-git init
- git:master
-git master
-ls
-git push origin master
-clear
-ls
-git commit
-git init
-git oush -u origin master
-git push -u origin master
-clear
-ls
-mkdir vj2
-ls
-cd vj2
-vim ElementaryParticle.h
-ls
-vim ElementaryParticle.h
-ls
-cd vj2
-ls
-vim ElementaryParticle.h 
-ls
-vim ElementaryParticle.cpp
-ls
-vim analyzer.cpp
-ls
-g++ -o analyzer analyzer.cpp ElementaryParticle.cpp -I
-g++ -o analyzer analyzer.cpp ElementaryParticle.cpp -I.
-./analyzer 
-ls
-cd
-mkdir vj3
-ls
-cd vj3
-vim z1.cpp
-cd
-cd vj2
-ls
-vim ElementaryParticle.H
-ls
-rm ElementaryParticle.H
-vim ElementaryParticle.h
-cd
-cp vj2/ElementaryParticle.h vj3
-ls
-cd vj3
-ls
-vim ElementaryParticle.h 
-cd
-cd vj2
-ls
-cd
-cp vj2/ vj3
-cd vj3
-ls
-cd
-cp vj2 vj3
-cp vj2/ElementaryParticle.cpp vj3
-cp vj2/analyzer.cpp vj3
-cd
-cd vj3
-ls
-vim ElementaryParticle.h
-vim ElementaryParticle.cpp
-vim ElementaryParticle.h
-vim ElementaryParticle.cpp
-vim analyzer.cpp 
-g++ -o analyzer analyzer.cpp ElementaryParticle.cpp -I.
-vim ElementaryParticle.cpp
-vim ElementaryParticle.h
-g++ -o analyzer analyzer.cpp ElementaryParticle.cpp -I.
-vim ElementaryParticle.h
-g++ -o analyzer analyzer.cpp ElementaryParticle.cpp -I.
-vim ElementaryParticle.h
-vim ElementaryParticle.cpp
-vim ElementaryParticle.h
-g++ -o analyzer analyzer.cpp ElementaryParticle.cpp -I.
-exit
-git init
-git remote add origin git@github.com:markmih1/AnalizaHEP_Vjezbe.git  
-git remote -v
-git add .
-git commit -m "first commit"
-git push origin master
-.git/config
-ssh-add ~/.ssh/id_rsa
-eval 'ssh-agent -s'
-ssh-add ~/.ssh/id_rsa
-clear
-git init
-ls
-git remote add origin https://github.com/markomih1/AnalizaHEP_Vjezbe.git
-git remote -v
-git add .
-git status
-git commit -m "first commit2"
-git push origin master
-ls
-rm key
-rm key.pub 
-rm README.md 
-LS
-lks
-ls
-mkdir
-clear
-ssh-keygen -t rsa -b 4096 -C "mmihovilo@pmfst.hr"
-eval "$(ssh-agent -s)"
-ssh-add -k ~/.ssh/id_rsa
-/home/mmihovilovic/.ssh/id_rsa
-ls
-nano key.pub
-vim key.pub 
-ls
-vim key.pub 
-ls
-ls
-rm key
-rm key.pub 
-ssh-keygen -t rsa -b 4096 -C "mmihovilo@pmfst.hr"
-ls
-vim key.pub
-echo "#analiza "<
-echo "#analiza " >> README.md
-git init
-git add README.md
-git commit -m "first commmit"
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git remote -v
-git push -u origin master
-git push
-cd /home/mmihovilovic
-cd /home/mmihovilovic/.ssh
-ls
-vim id_rsa.pub
-cd
-ls
-vim README.md 
-git int
-git init
-cd /home/mmihovilovic
-ls
-cd /home/mmihovilovic/.git
-ls
-cd
-git add READE.md
-cd /home/mmihovilovic/.git
-LS
-ls
-cd
-git config --global user.name "markomih1"
-git config --global user.email "mmihovilo@pmfst.hr"
-git commit -m "first commiit"
-git remote -v
-git push -u origin master
-git push
-git remote add origin git@github.com:markomih1/AnalizaHEP_Vjezbe.git
-git push -u origin master
-git commit
-git push -u origin master
-git commit -m "initial commit"
-git push origin master
-git commite -a
-git commit -a
-git commit -m "first commit"
-git push origin master
-git branch -M main
-git push -u origin main
-ls
-cd vj3
-sl
-ls
-vim analyzer.cpp 
-vim ElementaryParticle.H
-ls
-vim ElementaryParticle.h
-vim ElementaryParticle.cpp
-g++ -o ElementaryParticle ElementaryParticle.cpp
-vim ElementaryParticle.cpp
-ls
-vim ElementaryParticle.h
-g++ -o EPH ElementaryParticle.h
-./EPH
-vim ElementaryParticle.cpp
-vim analyzer.cpp 
-nano Makefile
-ls
-nano ElementaryParticle.h
-vim ElementaryParticle.cpp
-ls
-make
-ls
-vim z1.cpp
-rm z1.cpp 
-ls
-vim Makefile 
-s
-ls
-nano analyzer
-make
-./analyzer
-ls
-nano Analysis.txt 
-cd
-mkdir vj3
 mkdir vj4
 sl
 ls
@@ -998,3 +741,260 @@ cd vj
 root /home/pulic/data/Lifetime.root
 ls
 cd
+ls
+cd
+cd koil1
+cd kol1/
+ls
+cd z2
+ls
+nano Analyzer.h
+cd
+ls
+cd vj7
+ls
+rm nesto.*
+ls
+cd
+ls vj6
+cd vj6
+ls
+nano Analyzer.cpp
+cd
+cp vj6/Analy* vj7/
+cd vj7
+ls
+cd
+cp vj6/analyze.cpp vj7/
+cd vj7
+ls
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp 
+nano make
+make
+rm make
+nano MakeFile
+make
+nano Makefile
+make
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.h
+make
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git commit
+git -A
+git push
+git init
+git commit -m "nesto"
+git add -all
+git add --all
+git push
+cd vj7
+ls
+cd
+git init
+git commit -m "fiiit"
+git add --all
+git push
+cd
+ls
+mkdir vj8
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefil
+nano Makefile
+make
+./analyze 
+git commit -m "fiit"
+git add --all
+git push
+git init
+git commit -m "asd" 
+git add --A
+git add --a
+git push
+ls
+cd vj8
+ls
+cd
+mv K* vj8
+ls
+mv L* vj8
+mv A* vj8
+ls
+cd a* vj8
+cd an* vj8
+cd analyze.cpp* vj8
+mv  analyze vj8
+ls
+mv M* vj8
+ls
+cd vj8
+ls
+make
+./analyze 
+cd
+git init
+git commit -m "dswa" 
+git add --a
+git push
+git add --a
+git commit -m "dswa" 
+git push
+LS
+ls
+cd vj8
+ls
+nano Analyzer.cpp
+nano analyze.cpp
+nano Analyzer.h
+make
+./analyze 
+ls
+cd
+git init
+git add --a
+git commit -m "as"
+git push
+git pull
+a
+git push
+cd vj8
+ls
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+make
+ls
+git add --a
+git commit -m "as"
+git push
+./analyze 
+git add --a
+git commit -m "asd"
+git push
+cd
+mkdir vj9
+c vj9
+ls
+cd vj9
+nano Analyzer.cpp
+cd
+nano /home/public/data/Lifetime/
+nano /home/public/data/Lifetime/Lifetime.root
+root /home/public/data/Lifetime/Lifetime.root
+cd vj9
+ls
+nano Analyzer.cpp 
+nano Analyzer.h
+nano analysis.cpp
+nano analyze.cpp
+nano Makefile
+makeđ
+make
+./analyze 
+ls
+cd
+git init
+git add --a
+git commit -m "qwdas"
+git pushđ
+git push
+cd vj9
+ls
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git init
+git add --a
+git commit -m "sdax"
+git push
+cd vj9
+nano Analyzer.
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git inti
+git init
+git add --a
+git commit -m "xwasx"
+git push
+ls
+mkdir vj10
+cd vj10
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+make
+./analyze 
+cd
+git init
+git add --a
+git commit -m ""
+git commit -m "sw"
+git push
+s
+ls
+cd /home/public/data/Heihgt
+clear
+ls
+root 
+root /home/public/data/Height/Height.root
+nano /home/public/data/Height/Height.root
+ls
+cd vj10
+ls
+cd
+mkdir vj11
+nano Analyzer.cpp
+ls
+rm Analyzer.cpp 
+cd vj11
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+nano Analyzer.cpp
+nano Analyzer.h
+nanao analyze.cpp 
+nano analyze.cpp 
+make
+./analyze 
+nano analyze.cp
+ls
+nano analyze.cpp 
+s
+ls
+mkdir vj12
+cd vj12
+root /home/public/data/ElectronTraining/Electrons.root
+s 
+ls
+cd vj12
+root /home/public/data/ElectronTraining/Electrons.root
+root 
+root /home/public/data/ElectronTraining/Electrons.root
+ls
+cd vj12
+ls
+cd
+cd vj11
+ls
+nano Analyzer.cpp 
+ls
+cd
+root
+ls
+cd vj1
+ls
+root /home/public/data/ggH125/ZZ4lAnalysis.root
