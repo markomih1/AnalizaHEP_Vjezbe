@@ -16,15 +16,18 @@ void Analyzer::Funkcija()
 
 
  gStyle->SetOptStat(0);
- file = new TFile("/home/public/data/Lifetime/Lifetime.root");
+ file = new TFile("/home/public/data/Toy/ToyTree.root");
   tree = (TTree*)file->Get("tree");
   tree->SetBranchAddress("var",&var);
   HistoLikelihood = new TH1F("Likelihood", "Likelihood", 50, 0.0, 10.);
 
- funkc= new TF1("funkcija","[0]*(exp(-x/4.)+exp(-1*TMath::Power((x-3.),2)/2*0.09)",0.1,10.);
- funkc->SetParameter(0,100.);
+// funkc= new TF1("funkcija","[0]* (TMath::Exp(-x/[1])+TMath::Exp(-(x-[2])*(x-[2])/(2.*[3]*[3]))",0.1,10.);
+ //funkc->SetParameter(0,100.);
+//funkc->SetParameter(1,4.);
+//funkc->SetParameter(2,3.);
+//funkc->SetParameter(3,0.3);
  
-nentries=tree->GetEntries();
+Long64_t nentries=tree->GetEntries();
   for(i=0;i<nentries;i++)
   {
     tree->GetEntry(i);
@@ -34,10 +37,10 @@ nentries=tree->GetEntries();
 
  //HistoLikelihood->Fit(funkc,"L");
 
-  canvas1=new TCanvas("canvas1","canvas1",600,400);
+  canvas1=new TCanvas("canvas1","canvas1",600,600);
 
-  HistoLikelihood->Draw();
-  canvas1->SaveAs("Lifelihood.pdf");
+  HistoLikelihood->Draw("HIST");
+  canvas1->SaveAs("LiKelihood.pdf");
 
 }
 
