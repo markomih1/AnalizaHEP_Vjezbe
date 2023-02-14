@@ -1,150 +1,3 @@
-cd
-cd vj5
-root
-ls
-mkdir vj5
-cd vj5
-cd
-cd vj4
-ls
-vim analyze.cpp
-make
-ls
-vim analyze.cpp
-nano Analysis.txt
-vim analyze.cpp
-nano Analyzer.cpp
-nano Analyzer.h
-nano Makefile 
-vim analyze.cpp
-make
-ls
-cd
-cd vj5
-cd
-vj4
-./analyze
-cd vj4
-make
-./analyze 
-ls
-cd
-cp vj4/Analysis.root vj5
-cd vj5
-ls
-root -l Analysis.root 
-ls
-vim Analyzer.h
-ls
-rm vj5
-cd
-rm vj5
-cd
-cd vj5
-ls
-rm Analyer.h
-rm Analyer.C 
-root -l Analysis.root 
-ls
-vim Analyzer.h
-ls
-cd vj5
-ls
-vim Analyzer.h
-ls
-commit -m "first commit"
-git init
-git commit -m "first commit"
-git push -u origin master
-git push
-git init
-git commit -m "first commit"
-git push
-git status
-git init
-git commit -m "first"
-git commit -a
-git push
-git brach -M main
-git branch -M main
-git push -u origin master
-git init
-git branch -M main
-git push
-s
-ls
-cd v5
-cd vj5
-ls
-vim Analyzer.h
-cd
-mkdir vj6
-cd vj6
-root
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-ls
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-s
-ls
-cd vj5
-lsl
-ls
-vim Analyzerh
-vim Analyzer.h
-ls
-cd vj6
-ls
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-ls
-vim Analyzer.h
-vim Analyzer.cpp
-nano Analyzer.cpp
-nano analyze.cpp
-nano Makefile
-make
-nano Analyzer.cpp
-nano Analyzer.
-nano Analyzer.h
-make
-ls
-rm analyze.cpp 
-rm Analyzer.C
-rm Analyzer.h
-ls
-rm Analyzer.cpp 
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-make
-s
-ls
-root
-s
-ls
-cd vj5
-cd
-cd vj6
-ls
-root
-cd
-ls
-git init
-git add -A
-git commit -m "neki opis"
-git push
-cd vj6
-ls
-nano Analyzer.cpp
-nano analyze.cšš
-nano analyze.cp
-nano analyze.cpp
-./analyze
-git init
-git add -A
-git commit -m "neki opis"
-git push
-ls
-cd
 git init
 git add -A
 git commit -m "neki opis"
@@ -998,3 +851,150 @@ cd
 mkdir vj14
 cd vj14
 ls
+ls
+cd vj14
+ls
+root /home/public/data/Toy/Tree.root
+root /home/public/data/Toy/ToyTree.root
+ls
+nano Analyzer.h
+ls
+rm Analyzer.h
+ls
+rm Analyzer.*
+ls
+mkdir z1
+cd z1
+root homme/public/data/Toy/ToyTree.root
+root home/public/data/Toy/ToyTree.root
+root /home/public/data/Toy/ToyTree.root
+ls
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+nano analyze.cpp
+nano Makefile
+make
+nano analyze.cpp
+make
+nano Analyzer.h
+rm Analyzer.h
+ls
+nano Analyzer.h
+make
+nano Analyzer.cpp
+nano Analyzer.h
+make
+./analyze 
+nano Analyzer.cpp
+ls
+cd
+ls
+git init
+git add -A
+git commit -m "prova"
+git push
+ls
+cd vj14
+ls
+cd z1
+ls
+nano Analyzer.cpp
+make
+ls
+cd
+git add -A
+git commit -m "nestoo"
+git push
+cd vj14
+cd z1
+make
+./analyze 
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+nano analyze.cpp
+make
+./analyze 
+nano Analyzer.h
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+make
+./analyze 
+nano analyze.cpp
+nano Analyzer.cpp
+nano Analyzer.h
+make
+./analyze 
+cd
+cd vj14
+cd z1
+ls
+nano Analyzer.h
+make
+nano Analyzer.h
+nano analzye.cpp
+nano analyze.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git init
+git add -A
+git commit -m "deqwd"
+git push
+ls
+cd vj14
+cd z1
+ls
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git add -a
+git add -A
+git commit -m "qwd"
+git push
+~cd vj14
+ls
+cd vj14
+cd z1
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git add -A
+git commit -m "dwa"
+git push
+ls
+root /home/public/data/ggH125/ZZ4lAnalysis.root
+ls
+root /home/public/data/ggH125/ZZ4lAnalysis.root
+root /home/public/data/Lifetime/Lifetime.root
+ls
+cd vj14
+ls
+cd z1
+ls
+nano Analyzer.cpp
