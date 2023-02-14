@@ -34,9 +34,9 @@ Long64_t nentries=tree->GetEntries();
 
 canvas1=new TCanvas("canvas1","canvas1",600,600);
 histo->Fit(f, "L", "", 0, 10);
+histo->Draw("HIST");
+f->Draw("SAME");
 
-f->Draw();
- histo->Draw("p E1 X0");
 canvas1->SaveAs("LiKelihood.pdf");
 
 
