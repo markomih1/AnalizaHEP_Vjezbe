@@ -42,9 +42,12 @@ gr->Fit(f,"L","",0,10);
 gr->SetMarkerColor(kBlack);
  gr->SetMarkerStyle(21);
 gr-> GetXaxis() -> SetTitle("x");
-gr->Draw("HIST");
+gr->Draw("P");
 f->Draw("Same");
 
 
 c -> Print ("zad1.pdf");
+
+cout << "alfa =" << f -> GetParameter(0) << "±" << f -> GetParError(0) << endl;
+cout << "beta = " << f -> GetParameter(1) << "±" << f -> GetParError(1) << endl;
 }
