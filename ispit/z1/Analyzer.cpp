@@ -27,7 +27,7 @@ void Analyzer::ChiSquareFit()
 	tree -> SetBranchAddress("error", &error);
 
 gr = new TH2F("ChiSquare","ChiSquare",100,0.,10.,100,0.,1.);
-gr->SetTitle("x value");
+gr->SetTitle("ChiSquareTree");
 
 	Long64_t nentries = tree -> GetEntriesFast();
 	for (int i = 0; i < nentries; i++){
@@ -35,10 +35,16 @@ gr->SetTitle("x value");
 		tree -> GetEntry(i);
 		gr -> Fill(x,y);
 	}
-//f= new TF1("fit funkcija", "TMath::Exp ")
-
+f= new TF1("fit funkcija", "TMath::Exp(-[0]*x) * TMath::Sin([1]*x) ",0.,10.);
+f -> SetParameter(0, 0.2);
+f -> SetParameter(1, 2.);
+gr->Fit(f,"L","",0,10);
 gr->SetMarkerColor(kBlack);
-  gr->SetMarkerStyle(21);
-  gr->Draw("HISTO");
+ gr->SetMarkerStyle(21);
+gr-> GetXaxis() -> SetTitle("x");
+gr->Draw("HIST");
+f->Draw("Same");
+
+
 c -> Print ("zad1.pdf");
 }

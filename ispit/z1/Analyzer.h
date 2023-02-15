@@ -40,6 +40,6 @@ class Analyzer
    TCanvas *c;
 	TH2F *gr;
     //TGraphErrors *gr;
-    //TF1 *fit_funciton;
+    TF1 *f;
     
 };
