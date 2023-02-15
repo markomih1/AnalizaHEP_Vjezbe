@@ -1,6 +1,3 @@
-make
-nano Generator.cpp
-make
 nano Generator.cpp
 nano Generator.h
 nano analyze.cpp
@@ -998,3 +995,6 @@ make
 nano Analyzer.cpp
 make
 ./analyze 
+ls
+cd ispit/z2
+ls
