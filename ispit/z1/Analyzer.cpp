@@ -26,7 +26,7 @@ void Analyzer::ChiSquareFit()
 	tree -> SetBranchAddress("y", &y);
 	tree -> SetBranchAddress("error", &error);
 
-gr = new TH2F("ChiSquare","ChiSquare",50,0.,10.,50,0.,5.);
+gr = new TH2F("ChiSquare","ChiSquare",100,0.,10.,100,0.,1.);
 gr->SetTitle("x value");
 
 	Long64_t nentries = tree -> GetEntriesFast();
