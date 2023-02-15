@@ -38,6 +38,6 @@ histo->Draw("HIST");
 f->Draw("SAME");
 
 canvas1->SaveAs("LiKelihood.pdf");
-
+canvas1->SaveAs("slika.jpg");
 
 }

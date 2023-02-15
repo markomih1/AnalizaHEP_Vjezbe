@@ -1,291 +1,3 @@
-git init
-git add -A
-git commit -m "neki opis"
-git push
-ls
-cd
-ls
-cd vj5
-ls
-cd
-cd vj6
-ls
-nano Makefile 
-nano Analyzer.h
-cd
-cd vj3
-ls
-nano ElementaryParticle.h
-mkdir prk
-cd prk
-nano Statistics.cpp
-nano Statistics.h
-nano analyze.cpp
-nano Makefile
-nano MakeFile
-LS
-ls
-nano Makefile
-make
-ls
-./analyze 
-cd
-rm prk
-rm -r prk
-ls
-ls
-cd vj5
-ls
-cd 
-cd vj6
-ls
-nano analyze.cpp
-ls
-cd kolprob
-mkdir kolpr
-cd kolpr
-mkdir z1
-ls
-cd z1
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Makefile
-make
-nano Analyzer.cpp
-make
-./analyze
-cd
-ls
-cd kolpr
-ls
-mkdir z2
-cd z2
-ls
-clear
-ls
-nano Makefile
-ls
-rm Makefile 
-cd makefile
-nano makefile
-ls
-mkdir vj7
-cd vj6
-cd
-cd vj7
-root 
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-ls
-nano nesto.h
-cd
-ls
-rm -r kolpr
-cd kolpr
-ls
-rm -r z2
-ls
-cd
-rm -r kolpr
-ls
-cd kolpr
-ls
-cd z2
-ls
-rm analyze 
-rm Analyzer.o 
-ls
-cd
-čs
-ls
-cd kolpr
-ls
-rm z2
-rm -r z2
-ls
-cd
-ls
-cd kolpr
-ls
-rm -r z2
-ls
-rm -f z2
-ls
-cd
-ls
-rm -f /kolpr/z2
-cd kolpr
-ls
-rm -rf z2
-ls
-cd
-ls
-rm -r kolpr
-ls
-git init
-git add -a
-git add -A
-git commit -m "firstt"
-git push
-cd vj5
-root
-ls
-cd kolpr
-ls
-cd z2
-ls
-nano makefile 
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Analyzer.cpp
-make
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Analyzer.cpp
-nano analyze.cpp
-make
-nano Analyzer.cpp
-make
-nano Analyzer.cpp
-make
-./analyze
-ls
-nano 2abc.png 
-cd
-git init
-git add -A
-git commite -m "nesto"
-git commit -m "nesto"
-git push
-ls
-cd kolpr
-ls
-cd z2
-nano Analyzer.cpp
-make
-./analyze
-git add -A
-git init
-git add -A
-git commit -m "nesto"
-git push
-git init
-git add -A
-git commit -m "nes"
-cd
-git commit -m "nes"
-git push
-cd kolpr
-cd z2
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git commit -m "nes"
-git add -A
-git commit -m "ne"
-git push
-ls
-mkdir
-mkdir kol1
-ls
-cd kol1
-ls
-mkdir z1
-ls
-cd z1
-nano Generator.cpp
-nano Generator.h
-nano Generator.cpp
-nano analyze.cpp
-nano Makefile
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-nano analyze.cpp
-nano Generator.cpp
-nano analyze.cpp
-makeđ
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-cd
-ls
-cd kol1
-mkdir z2
-ls
-cd z2
-root /home/public/data/JPsi/TnPpairs_MC.root
-ls
-nano Analyzer.h
-nano Makefile
-nano Analyzer.cpp
-nano Analyzer.h
-rm Analyzer.cpp
-nano Analyzer.cpp
-nano Analyzer.h
-nano Analyzer.cpp
-make
-ls
-nano analyze.cpp
-nano Analyzer.cpp
-make
-nano Analyzer.cpp
-make
-nano Analyzer.cpp
-nano analyze.cpp
-make
-ls
-nano Analyzer.h
-make
-cd
-ls
-cd kol1
-ls
-cd z1
-ls
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-nano analyze.cpp
-make
-nano Generator.cpp
-nano analyze.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-nano analyze.cpp
-make
-nano Generator.cpp
-nano analyze.cpp
-make
-nano analyze.cpp
-make
-nano analyze.cpp
-make
-nano Generator.cpp
-nano Generator.h
-make
-nano Generator.cpp
-make
-nano Generator.cpp
 make
 nano Generator.cpp
 make
@@ -998,3 +710,291 @@ ls
 cd z1
 ls
 nano Analyzer.cpp
+ls
+mkdir vjezbaispit
+cd vjezbaispit
+mkdir kol1
+cd kol1
+mkdir z1
+cd z1
+ls
+cd vjezbaispit/
+ls
+cd kol2
+ls
+eog zad1.pdf
+open zad1.pdf
+ls
+cd z1
+ls
+nano Analyzer.cpp
+make
+./analyze 
+ls
+geoff$ slika.png
+eog slika.png
+nano Analyzer.cpp
+make
+./analyze 
+ls
+eog slika.jpg
+ls
+cd vjezbaispit/kol1/z1
+ls
+nano Makefile
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+nano analyze.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+git init
+git add -A
+git commit -M "nesto"
+git commit -m "nesto"
+git push
+cd
+git init
+git add -A
+git commit -m ""
+git commit -m "dwq"
+git push
+cd vjezbaispit/
+ls
+git add -A
+git commit -m "fwef"
+git push
+ls
+mkdir kol2/z1
+mkdir kol2
+cd kol2
+mkdir z1
+cd z1
+nano ana.cpp
+cd
+git init
+git add -A
+git commit -m "d2d"
+git push
+cd vjezbaispit/
+ls
+cd kol1
+ls
+cdz1
+cd z1
+ls
+mv zad1.pdf vjezbaispit
+cd
+ls
+cd vjezbaispit/
+ls
+cd kol1
+ls
+cd z1
+ls
+make
+./analyze 
+ls
+cd
+git init
+git add -A
+git commit -m "dw"
+git push
+git add --a
+git commit -m "dqwdq"
+git push
+cp vjezbaispit/kol1/z1/zad1.pdf vjezbaispit/kol2/
+cd vjezbaispit/kol2
+ls
+cd
+git init
+git add -A
+git commit -m "dweqdqwd"
+git push
+cd
+ls
+cd vjezbaispit/
+ls
+mkdir kol
+cd kol
+mkdir z2
+nano Analyzer.cpp
+root /home/public/data/JPsi/TnPpairs_MC.root
+ls
+nano Analyzer.h
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+make
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano analyze.cpp
+nano Analyzer.h
+make
+nano analyze.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+nano analyze.cpp
+make
+nano analyze.cpp
+nano Analyzer.cpp
+makr
+make
+nano Analyzer.cpp
+make
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+./analyze 
+ls
+cd
+git init
+git add -a
+git add -A
+git commit -m "dqwqwd"
+git push
+cd vjezbaispit/
+ls
+cd kol1
+ls
+cd
+cd 
+ls
+cd vjezbaispit/
+ls
+cd kol2
+cd 
+cd kol2
+ls
+cd vjezbaispit/
+ls
+cd kol2
+ls
+cd z1
+ls
+rm a*
+ls
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+nano analyze.cpp
+nano Makefile
+make
+nano Analyzer.cpp
+make
+nano analyze.cpp
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git init
+git add -A
+git commit -m "sqhbs2"
+git pushđ
+git push
+cd vjezbaispit/kol2/z1/
+ls
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git init
+git add -A
+git commit -m "dqwd"
+git push
+cd vjezbaispit/kol2/z1/
+ls
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+cd
+git init
+git add -A
+git commit -m "deqwdew"
+git push
+cd vjezbaispit/kol2/z1/
+nano Analyzer.cpp
+nano Analyzer.h
+make
+./analyze 
+nano Analyzer.cpp
+ls
+cd
+git add -A
+git commit -m "dqwd"
+git push
+cd vjezbaispit/kol2/
+ls
+mkdir z2
+cd z2
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+make
+nano Analyzer.h
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Analyzer.cpp
+nano analyze.cpp
+make
+nano analyze.cpp
+nano Analyzer.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+nano analyze.cpp
+make
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+./analyze 
