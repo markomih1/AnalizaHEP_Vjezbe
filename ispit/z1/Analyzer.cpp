@@ -42,6 +42,7 @@ gr->Fit(f,"L","",0,10);
 gr->SetMarkerColor(kBlack);
  gr->SetMarkerStyle(21);
 gr-> GetXaxis() -> SetTitle("x");
+gr-> GetYaxis() -> SetTitle("y");
 gr->Draw("P");
 f->Draw("Same");
 
