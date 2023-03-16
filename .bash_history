@@ -1,23 +1,3 @@
-make
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git commit
-git -A
-git push
-git init
-git commit -m "nesto"
-git add -all
-git add --all
-git push
-cd vj7
-ls
-cd
-git init
-git commit -m "fiiit"
-git add --all
-git push
 cd
 ls
 mkdir vj8
@@ -997,4 +977,24 @@ git commit -m "axwsx"
 git push
 git add -all
 git add --all
+git push
+ls
+cd
+ls
+cd kol1
+ls
+cd z1
+ls
+nano Generator.cpp
+ls
+git commit
+git init
+git add A
+git add -A
+git commit -m "daswdxqwa"
+git push
+ls
+git init
+git add -A
+git commit -m "neki opis"
 git push
