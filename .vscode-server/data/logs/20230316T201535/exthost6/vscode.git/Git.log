@@ -197,3 +197,9 @@
 2023-03-16 20:25:45.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
 2023-03-16 20:25:45.594 [info] > git rev-list --left-right --count main...origin/main [3ms]
 2023-03-16 20:25:45.728 [info] > git status -z -uall [96ms]
+2023-03-16 20:27:33.578 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-16 20:27:33.597 [info] > git remote --verbose [18ms]
+2023-03-16 20:27:33.598 [info] > git config --get commit.template [3ms]
+2023-03-16 20:27:33.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
+2023-03-16 20:27:33.633 [info] > git rev-list --left-right --count main...origin/main [3ms]
+2023-03-16 20:27:33.730 [info] > git status -z -uall [82ms]

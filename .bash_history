@@ -1,14 +1,3 @@
-nano make
-make
-rm make
-nano MakeFile
-make
-nano Makefile
-make
-nano Analyzer.h
-nano Analyzer.cpp
-make
-nano Analyzer.h
 make
 nano Analyzer.cpp
 make
@@ -998,3 +987,14 @@ ls
 make
 cd
 git init
+git add -A
+git commit -m "dwwd"
+git add -A
+git add
+git commit -a
+git push
+git commit -m "axwsx"
+git push
+git add -all
+git add --all
+git push
