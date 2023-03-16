@@ -69,3 +69,37 @@ Events->MakeClass("Analyzer")
 TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
 .ls
 .q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.l
+.ls
+.help
+.g
+.help
+.stats
+.stats
+.stat
+.help
+TTree::Show
+T->Print()
+new TTreeViewer()
+TTree::Scan
+TTree::Print
+.ls
+TTree::Print(tree)
+.q
+TFile f(/home/public/data/Toy/ChiSquareTree.root)
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+TTree->Print()
+tree->Print()
+.q
+.ls
+.x
+exit
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+TTree->Print()
+tree->Print()
+.q

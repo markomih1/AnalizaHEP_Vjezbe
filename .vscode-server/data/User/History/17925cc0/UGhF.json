@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": -1,
+    "remote.SSH.remotePlatform": {
+        "symmetry.pmfst.hr": "linux"
+    }
+}

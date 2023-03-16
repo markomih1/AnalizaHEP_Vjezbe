@@ -1,4 +1,4 @@
-include <Analyzer.h>
+#include <Analyzer1.h>
 #include <cmath>
 Analyzer::Analyzer()
 {
@@ -16,7 +16,7 @@ int r;
 double lambda1=49.999,lambda2=0.;
 double sum1=0.,sum2=0;
 
-while(sum<(1-CL)){
+while(sum1<(1-CL)){
 sum1=0.;
        	for(r=0;r<N;r++){
         sum1+=TMath::Poisson(r,lambda);
@@ -26,7 +26,7 @@ sum1=0.;
 
 }
 
-while(sum<CL){
+while(sum2<CL){
 sum2=0.;
        	for(r=0;r<N-1;r++){
         sum2+=TMath::Poisson(r,lambda);

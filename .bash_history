@@ -1,259 +1,3 @@
-nano Generator.cpp
-nano Generator.h
-nano analyze.cpp
-make
-./analyze
-nano Generator.cpp
-make
-./analyze
-nano Generator.cpp
-make
-./analysis
-./analyze
-cd
-ls
-git init
-git add -A
-git commit -m "kolokvij"
-git push
-ls
-cd vj5
-ls
-ls
-cd vj5
-ls
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-ls
-nano NESTO.h
-ls
-rm NESTO.*
-ls
-cd
-ls
-cd kol1
-ls
-cd z1
-ls
-rm an*
-ls
-cd G*
-rm G*
-L
-ls
-cd Generator.cpp
-nano Generator.cpp
-nano Generator.h
-nano Generator.cpp
-nano Generator.h
-nano generate.cpp
-nano Makefile 
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-./generate
-ls
-nano Generator.cpp
-nano Generator.h
-nano generator.cpp
-nano generate.cpp
-make
-./generate 
-cd
-cd z3
-cd
-cd kol1
-cd z3
-ls
-mkdir z3
-cd z3
-nano Generator.h
-nano Generator.h 
-rm G*
-LS
-ls
-nano Generator.h 
-nano Generator.cpp
-nano generate.cpp
-nano Makefile
-make
-./generate
-cd
-cd kol1
-ls
-cd z1
-ls
-nano generate.cpp
-nano Generator.h
-nano Generator.cpp
-make
-./generate 
-nano Generator.cpp
-MAKE
-make
-./generate 
-ls
-cd
-git init
-git add -a
-git add -all
-git add -_all
-git add --all
-git commit "ness"
-git commit -m "first commit"
-git push
-cd kol1
-ls
-cd z1
-nano Generator.cpp
-make
-./generate 
-git add --all
-git push
-git commit -m "first commit"
-git add --all
-git push
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-nano Generator.cpp
-make
-./generate 
-ls
-cd ko1l
-cd kol1
-ks
-ls
-cd z2
-ls
-nano Analyzer.h
-nano Analyzer.cpp
-nano analyze.cpp
-nano Makefile 
-MAKEW
-make
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-make
-nano Analyzer.cpp
-make
-nano analyze.cpp
-make
-nano Analyzer.h
-nano analyze.cpp
-make
-nano Analyzer.cpp
-make
-nano Analyzer.h
-nano analyze.cpp
-make
-nano analyze.cpp
-nano Analyzer.cpp
-rm Analyzer.h
-nanp Analyzer.h
-nano Analyzer.h
-make
-nanp Analyzer.h
-nano Analyzer.h
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git init
-git add -all
-git add --all
-git commit -m
-git push
-git commit -m "nesto"
-git add --all
-git push
-ls
-cd kol1
-ls
-cd z2
-ls
-nano Analyzer.cpp
-make
-ls
-cd
-git commit -m "nesto"
-git add --all
-git push
-cd kol1/z2
-ls
-./analyze 
-ls
-cd
-git commit -m "nesto"
-git add --all
-git push
-cd kol1/z2
-ls
-cd
-git commit -m "n"
-git add -A
-git push
-ls
-cd kol1
-ls
-cd z2
-ls
-cd
-cd kol1
-cd z2
-ls
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Analyzer.cpp
-ls
-rm Analyzer.h
-root /home/public/data/JPsi/TnPpairs_MC.root
-ls
-nano Analyzer.h
-ls
-mkdir vj
-cd vj
-root /home/pulic/data/Lifetime.root
-ls
-cd
-ls
-cd
-cd koil1
-cd kol1/
-ls
-cd z2
-ls
-nano Analyzer.h
-cd
-ls
-cd vj7
-ls
-rm nesto.*
-ls
-cd
-ls vj6
-cd vj6
-ls
-nano Analyzer.cpp
-cd
-cp vj6/Analy* vj7/
-cd vj7
-ls
-cd
-cp vj6/analyze.cpp vj7/
-cd vj7
-ls
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp 
 nano make
 make
 rm make
@@ -998,3 +742,259 @@ make
 ls
 cd ispit/z2
 ls
+ls
+mkdir ispit
+cd ispit
+ls
+mkdir z1
+cd z1
+nano Analyzer.cpp
+root /home/public/data/Toy/ChiSquareTree.root
+ls
+nano Analyzer.cpp 
+nano Analyzer.h
+nano Analyzer.cpp 
+nano Analyzer.h
+nano Analyzer.cpp 
+nano analyze.cpp
+nano Makefile
+make
+nano Analyzer.h
+make
+nano Analyzer.cpp 
+make
+nano Analyzer.cpp 
+make
+nano Analyzer.h
+nano Analyzer.cpp 
+nano Analyzer.h
+make
+nano Analyzer.h
+make
+ls
+./analyze 
+ls
+nano Analyzer.cpp
+make
+./analyze 
+ls
+cd
+git init
+git add -A
+git commit -m "ispit"
+git push
+cd ispit/
+ls
+cd y1
+cd z1
+ls
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git add -A
+git commit -m "ispit"
+git push
+cd ispit/z1
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git init
+git add -A
+git commit -m "ispit"
+git push
+cd ispit/z1/
+nano Analyzer.cpp
+nano Analyzer.h
+make
+./analyze 
+cd
+git add -a
+git add -A
+git commit -m "ispit"
+git push
+cd ispit/z1/
+ls
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+make
+nano Analyzer.cpp
+makr
+make
+nano Analyzer.cpp
+make
+./analyze 
+nano Analyzer.cpp
+make
+./analyze 
+cd
+
+git add -A
+git commit -m "ispit"
+git push
+cd ispit/z1/
+nano Analyzer.cpp
+make
+./analyze 
+cd
+git add -A
+git commit -m "ispit"
+git push
+cd ispit
+ls
+mkdir z2
+cd z2
+nano Analyzer.cpp
+cd
+ls
+cd vj11
+ls
+nano Analyzer.cpp
+nano analyze.cpp
+make
+./analyze 
+cd
+cd ispit/z2
+ls
+nano Analyzer.cpp 
+nano Analyzer.h
+nano Analyzer.cpp 
+nano Analyzer.h
+nano Analyzer.cpp 
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile
+make
+nano analyze.cpp
+nano Analyzer.h
+make
+nano Analyzer.cppđ
+nano Analyzer.cp
+nano Analyzer.cpp
+nano Analyzer.h
+make
+./analyze 
+cd
+cd vj11
+make
+./analyze 
+cd
+cd ispit/z2
+ls
+cd ispit/z2
+ls
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+make
+./analyze 
+nano Analyzer.cpp
+nano Analyzer1.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefile 
+make
+nano Analyzer.h
+nano analyze.cpp
+make
+nano analyze.cpp
+nano Analyzer.h
+nano Makefile 
+make
+nano analyze.cpp
+make
+nano Analyzer.h
+nano analyze.cpp
+nano Analyzer.h
+nano Analyzer.cpp
+nano Analyzer.h
+make
+./analyze 
+cd
+git add -A
+git commit -m "ispitz2"
+git push
+cd ispit/z2/
+ls
+nano Analyzer.h
+nano Analyzer1.h
+nano analyze.h
+nano analyze.cpp
+nano analyze1.cpp
+ls
+nano Analyzer1.cpp
+nano Makefile
+nano Analyzer1.cpp
+nano analyze1.cpp
+make
+nano Analyzer1.cpp
+make
+./analyze
+ls
+./analyze1
+ls
+./analyze
+ls
+cd ispit/z2
+ls
+nano Makefile
+nano Analyzer1.cpp
+nano analyze.cpp 
+ls
+cd ispit/z2/
+ls
+nano analyze1.cpp
+make
+./analyze
+./analyze1
+root /home/public/data/Toy/ChiSquareTree.root
+cd
+root
+root /home/public/data/Toy/ChiSquareTree.root
+ls
+mkdir bzvz
+cd bzvz
+nano Analyzer.cpp
+nano Analyzer.h
+nano analyze.cpp
+nano Makefiule
+nano Makefile
+make
+nano Analyzer.h
+nano Analyzer.cpp
+make
+nano Analyzer.h
+make
+nano Analyzer.cpp
+make
+nano Analyzer.h
+make
+ls
+./analzye
+nano Analyzer.cpp
+nano Analyzer.h
+make
+ls
+root /home/publice/data/Toy/ChiSquareTree.root
+root /home/public/data/Toy/ChiSquareTree.root
+.qw
+ls
+cd vj1
+ls
+cd
+cd ispit
+ls
+cd z1
+ls
+nano zad1.pdf 
+ls
+cd z1
+ls
+make
+cd
+git init
