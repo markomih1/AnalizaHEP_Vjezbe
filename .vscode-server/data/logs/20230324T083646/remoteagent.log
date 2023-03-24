@@ -12,3 +12,4 @@
 2023-03-24 11:29:57.333 [info] [127.0.0.1][9a628f56][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 2023-03-24 11:29:57.553 [info] [127.0.0.1][3765fbc1][ExtensionHostConnection] <4064> Extension Host Process exited with code: 0, signal: null.
 2023-03-24 11:29:57.553 [info] Last EH closed, waiting before shutting down
+2023-03-24 11:34:57.555 [info] Last EH closed, shutting down

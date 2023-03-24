@@ -55,7 +55,7 @@ public :
 
    
    private :
-  TRandom *r3;
+  TRandom *r3, *r2;
   TH1F *testStatistic_PDF;
   TH1F *testStatistic_H0;
   TH1F *testStatistic_H1;
@@ -78,6 +78,8 @@ Analyzer::Analyzer(TTree *tree) : fChain(0)
 
    }
    Init(tree);
+   r3 = new TRandom3();
+   r2 = new TRandom3();
 }
 
 Analyzer::~Analyzer()
