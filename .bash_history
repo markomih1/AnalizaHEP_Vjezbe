@@ -1,47 +1,3 @@
-./analyze 
-nano Analyzer.h
-nano Analyzer.cpp
-make
-./analyze 
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-make
-./analyze 
-nano analyze.cpp
-nano Analyzer.cpp
-nano Analyzer.h
-make
-./analyze 
-cd
-cd vj14
-cd z1
-ls
-nano Analyzer.h
-make
-nano Analyzer.h
-nano analzye.cpp
-nano analyze.cpp
-make
-./analyze 
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git init
-git add -A
-git commit -m "deqwd"
-git push
-ls
-cd vj14
-cd z1
-ls
-nano Analyzer.cpp
-make
-./analyze 
-nano Analyzer.cpp
-make
-./analyze 
 nano Analyzer.cpp
 make
 ./analyze 
@@ -998,3 +954,47 @@ make
 cd
 git init
 git add -A
+cd Ispit_2rok/
+ls
+cd z2
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+git 
+.q
+cd
+git init
+git add commit -m "ispit2"
+git commit -m "ispit"
+git push
+git add -A
+git push
