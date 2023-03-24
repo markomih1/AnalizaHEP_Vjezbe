@@ -5,18 +5,18 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:42424 (IPv4)
-Extension host agent listening on 42424
+Server bound to 127.0.0.1:33576 (IPv4)
+Extension host agent listening on 33576
 
-[12:54:27] 
-
-
+[14:55:51] 
 
 
-[12:54:27] Extension host agent started.
-[12:54:27] [127.0.0.1][36628593][ManagementConnection] New connection established.
-[12:54:27] [127.0.0.1][7df4e1d6][ExtensionHostConnection] New connection established.
-[12:54:27] [127.0.0.1][7df4e1d6][ExtensionHostConnection] <17332> Launched Extension Host Process.
+
+
+[14:55:51] Extension host agent started.
+[14:55:51] [127.0.0.1][b9f8b928][ManagementConnection] New connection established.
+[14:55:51] [127.0.0.1][b4a60623][ExtensionHostConnection] New connection established.
+[14:55:51] [127.0.0.1][b4a60623][ExtensionHostConnection] <24726> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -78,8 +78,4 @@ Extension host agent listening on 42424
     'exit 0'
 ]
 New EH opened, aborting shutdown
-[12:59:27] New EH opened, aborting shutdown
-[13:19:02] [127.0.0.1][36628593][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[13:19:02] [127.0.0.1][7df4e1d6][ExtensionHostConnection] <17332> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[13:19:02] Last EH closed, waiting before shutting down
+[15:00:51] New EH opened, aborting shutdown

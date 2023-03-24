@@ -57,15 +57,9 @@ void Analyzer::CompareHypothesis()
    c3->SaveAs("TestStatistic_.pdf");
 
 
-}
 
 
-
-void Analyzer::PValueCalculation()
-{
-   TCanvas *c2 = new TCanvas("c2","c2",700,700);
-
-   x_obs = 0.;
+   double x_obs = 0.;
    double p_value = 0.;
 
    if (fChain == 0) return;
@@ -82,95 +76,11 @@ void Analyzer::PValueCalculation()
       x_obs+=x_observed;
    }
 
-   x_obs = x_obs/100000.;
+   x_obs = x_obs/10000.;
 
-   testStatistic_PDF->SetFillColor(kRed-2);
-   testStatistic_PDF->SetLineColor(kRed-2);
-
-   testStatistic_PDF->SetTitle("Test Statistic PDF distribution");
-   testStatistic_PDF->GetXaxis()->SetTitle("x");
-
-   testStatistic_PDF->Scale(1./testStatistic_PDF->Integral());
-   testStatistic_PDF->Draw("HIST");
-
-   
-
-   c2->SaveAs("TestStatistic_PDF.pdf");
-
-   p_value = testStatistic_PDF->Integral(testStatistic_PDF->FindBin(x_obs),100000);
+   p_value = testStatistic_H0->Integral(0.,testStatistic_H0->FindBin(x_obs));
    cout << "p-value for the null hypothesis is: " << p_value << endl;
 
 
 }
 
-void Analyzer::Generate_TestStatistic_H0()
-{
-  TCanvas *c = new TCanvas("c","c",700,700);
-
-  gStyle->SetOptStat(0);
-
-  testStatistic_PDF = new TH1F("testStatistic_PDF","Test Statistic PDF",150,0.,15.);
-
-  double sum_x=0.;
-
-  for (int i=0; i < 10000 ; i++)
-  {
-    
-
-    sum_x += r3->Gaus(3,1.5);
-    
-
-    testStatistic_PDF->Fill(sum_x/100000.);
-
-  }
-
-  c->cd();
-  testStatistic_PDF->SetFillColor(kRed-2);
-  testStatistic_PDF->SetLineColor(kRed-2);
-
-  testStatistic_PDF->SetTitle("Test Statistic PDF distribution");
-  testStatistic_PDF->GetXaxis()->SetTitle("x");
-
-  testStatistic_PDF->Scale(1./testStatistic_PDF->Integral());
-   testStatistic_PDF->Draw("HIST");
-   c->SaveAs("TestStatistic1_PDF.pdf");
-}
-
-
-void Analyzer::Loop()
-{
-//   In a ROOT session, you can do:
-//      root> .L Analyzer.C
-//      root> Analyzer t
-//      root> t.GetEntry(12); // Fill t data members with entry number 12
-//      root> t.Show();       // Show values of entry 12
-//      root> t.Show(16);     // Read and show values of entry 16
-//      root> t.Loop();       // Loop on all entries
-//
-
-//     This is the loop skeleton where:
-//    jentry is the global entry number in the chain
-//    ientry is the entry number in the current Tree
-//  Note that the argument to GetEntry must be:
-//    jentry for TChain::GetEntry
-//    ientry for TTree::GetEntry and TBranch::GetEntry
-//
-//       To read only selected branches, Insert statements like:
-// METHOD1:
-//    fChain->SetBranchStatus("*",0);  // disable all branches
-//    fChain->SetBranchStatus("branchname",1);  // activate branchname
-// METHOD2: replace line
-//    fChain->GetEntry(jentry);       //read all branches
-//by  b_branchname->GetEntry(ientry); //read only this branch
-   if (fChain == 0) return;
-
-   Long64_t nentries = fChain->GetEntriesFast();
-
-   Long64_t nbytes = 0, nb = 0;
-   for (Long64_t jentry=0; jentry<nentries;jentry++) {
-      Long64_t ientry = LoadTree(jentry);
-      if (ientry < 0) break;
-      nb = fChain->GetEntry(jentry);   nbytes += nb;
-      // if (Cut(ientry) < 0) continue;
-   }
-}

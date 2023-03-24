@@ -14,11 +14,10 @@ int main()
 
   analyzer = new Analyzer();
 
-  analyzer->Generate_TestStatistic_H0();
-  analyzer->PValueCalculation();
+  
 
   analyzer->CompareHypothesis();
-
+  //analyzer->PValueCalculation();
 
   delete analyzer;
 

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "Analyzer.C": "cpp",
+        "sstream": "cpp",
+        "BARAC.C": "cpp",
+        "random": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}

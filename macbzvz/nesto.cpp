@@ -26,7 +26,7 @@ TGraphErrors *g = new TGraphErrors(nbins,x,y,0,err);
 g->SetMarkerStyle(20); 
 g->SetMarkerSize(2); 
 g->Draw("AP");
-
+//komentar
 }
 
 

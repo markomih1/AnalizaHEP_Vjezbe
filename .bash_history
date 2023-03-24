@@ -1,19 +1,3 @@
-nano Analyzer.cpp
-make
-./analyze 
-nano Analyzer.cpp
-make
-./analyze 
-nano Analyzer.cpp
-make
-./analyze 
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git add -a
-git add -A
-git commit -m "qwd"
 git push
 ~cd vj14
 ls
@@ -997,4 +981,20 @@ git add commit -m "ispit2"
 git commit -m "ispit"
 git push
 git add -A
+git push
+git init
+git commit -m "ispit2"
+git add -A
+git push
+ls
+git init
+git add -a
+git add -A
+git commit -m "ispit"
+git add -A
+git push
+ls
+git init
+git add -A
+git commit -m "ispit2"
 git push
