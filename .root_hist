@@ -165,3 +165,96 @@ TFile *_file0 = TFile::Open("/home/public/data/JPsi/TnPpairs_MC.root")
 .ls
 Events->Print()
 .q
+TFile *_file0 = TFile::Open("/home/public/data/JPsi/TnPpairs_MC.root")
+.ls
+.L Analyzer.C
+.q
+TFile *_file0 = TFile::Open("/home/public/data/JPsi/TnPpairs_MC.root")
+.L Analyzer.C
+Analyzer t
+Analyzer Events
+Events.GetEntry(10)
+Events.Show()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+tree->Print()
+y.Show(11)
+.L Analyzer.C
+y.GetEntry(10)
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Lifetime/Lifetime.root")
+.ls
+Tree->Print()
+t.GetEntry(11)
+.Q
+TFile *_file0 = TFile::Open("/home/public/data/Lifetime/Lifetime.root")
+.ls
+Tree->Print()
+TTree::GetListOfBranches()
+Tree::GetListOfBranches()
+TTree::GetListOfBranches()
+Tree->Print()
+print t
+.ls
+.print
+Tree.print
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ToyTree.root")
+.ls
+tree->Print()
+TTree::Scan()
+Tree::Scan()
+Tree->Scan()
+tree->Scan()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+tree->Print()
+tree->Scan()
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ToyTree.root")
+.LS
+.ls
+tree->Scan()
+.ls
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/JPsi/TnPpairs_MC.root")
+.LS
+.ls
+Events->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+tree->Print()
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+.ls
+tree->Print()
+tree->MakeClass("Analyzer")
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+.ls
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+tree->Scan()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+.ls
+tree->MakeClass("Analyzer")
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Height/Height.root")
+.LS
+.ls
+Tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+tree->pRINT()
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/Gauss.root")
+tree->Print()
+.q

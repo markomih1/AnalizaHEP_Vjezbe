@@ -1,0 +1,14 @@
+2023-03-24 08:36:47.028 [info] 
+
+
+
+
+2023-03-24 08:36:47.084 [info] Extension host agent started.
+2023-03-24 08:36:47.258 [info] [127.0.0.1][9a628f56][ManagementConnection] New connection established.
+2023-03-24 08:36:47.277 [info] [127.0.0.1][3765fbc1][ExtensionHostConnection] New connection established.
+2023-03-24 08:36:47.433 [info] [127.0.0.1][3765fbc1][ExtensionHostConnection] <4064> Launched Extension Host Process.
+2023-03-24 08:36:47.856 [info] Deleted from disk ms-vscode.cpptools /home/mmihovilovic/.vscode-server/extensions/ms-vscode.cpptools-1.14.4-linux-x64
+2023-03-24 08:41:47.086 [info] New EH opened, aborting shutdown
+2023-03-24 11:29:57.333 [info] [127.0.0.1][9a628f56][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-24 11:29:57.553 [info] [127.0.0.1][3765fbc1][ExtensionHostConnection] <4064> Extension Host Process exited with code: 0, signal: null.
+2023-03-24 11:29:57.553 [info] Last EH closed, waiting before shutting down

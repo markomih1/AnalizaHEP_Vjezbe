@@ -1,218 +1,3 @@
-git commit -m "xwasx"
-git push
-ls
-mkdir vj10
-cd vj10
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Makefile
-make
-./analyze 
-cd
-git init
-git add --a
-git commit -m ""
-git commit -m "sw"
-git push
-s
-ls
-cd /home/public/data/Heihgt
-clear
-ls
-root 
-root /home/public/data/Height/Height.root
-nano /home/public/data/Height/Height.root
-ls
-cd vj10
-ls
-cd
-mkdir vj11
-nano Analyzer.cpp
-ls
-rm Analyzer.cpp 
-cd vj11
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Makefile
-nano Analyzer.cpp
-nano Analyzer.h
-nanao analyze.cpp 
-nano analyze.cpp 
-make
-./analyze 
-nano analyze.cp
-ls
-nano analyze.cpp 
-s
-ls
-mkdir vj12
-cd vj12
-root /home/public/data/ElectronTraining/Electrons.root
-s 
-ls
-cd vj12
-root /home/public/data/ElectronTraining/Electrons.root
-root 
-root /home/public/data/ElectronTraining/Electrons.root
-ls
-cd vj12
-ls
-cd
-cd vj11
-ls
-nano Analyzer.cpp 
-ls
-cd
-root
-ls
-cd vj1
-ls
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-ls
-git init
-git add -A
-git commit -m "dqwd"
-ls
-cd vj11
-ls
-nano Analyzer.cpp
-git init
-cd
-git init
-git add -a
-git add -all
-git add --all
-git commit -m "vj11""
-git init
-git add -A
-git commit -m "wqdqw""
-
-ls
-git init
-git commit -m "firsttt comiit"
-git add -A
-git push
-ls
-mkdir vj13
-cd vj13
-ls
-root /home/public/data/Height/Height.root
-ls
-nano Analyzer.h
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Makefile
-make
-nano Analyzer.h
-make
-nano Analyzer.h
-make
-nano Analyzer.h
-make
-nano Analyzer.h
-make
-./analyze
-ls
-./analyze
-cd
-ls
-cd vj7
-ls
-./analyze
-./analyze 
-cd
-cd vj13
-ls
-rm Analyzer.*
-ls
-rm an*
-nano Analyer.h
-nano Analyer.cpp
-nano analyze.cpp
-make
-ren Analyer.h Analyzer.h
-rm Analyer.h
-nano Analyer.h
-make
-rm Analyer.h
-LS
-ls
-rm Analyer.cpp 
-nano Analyzer.h
-nano Analyzer.cpp
-make
-./analyze 
-cd
-mkdir vj14
-cd vj14
-ls
-ls
-cd vj14
-ls
-root /home/public/data/Toy/Tree.root
-root /home/public/data/Toy/ToyTree.root
-ls
-nano Analyzer.h
-ls
-rm Analyzer.h
-ls
-rm Analyzer.*
-ls
-mkdir z1
-cd z1
-root homme/public/data/Toy/ToyTree.root
-root home/public/data/Toy/ToyTree.root
-root /home/public/data/Toy/ToyTree.root
-ls
-nano Analyzer.cpp
-nano Analyzer.h
-nano Analyzer.cpp
-nano analyze.cpp
-nano Makefile
-make
-nano analyze.cpp
-make
-nano Analyzer.h
-rm Analyzer.h
-ls
-nano Analyzer.h
-make
-nano Analyzer.cpp
-nano Analyzer.h
-make
-./analyze 
-nano Analyzer.cpp
-ls
-cd
-ls
-git init
-git add -A
-git commit -m "prova"
-git push
-ls
-cd vj14
-ls
-cd z1
-ls
-nano Analyzer.cpp
-make
-ls
-cd
-git add -A
-git commit -m "nestoo"
-git push
-cd vj14
-cd z1
-make
-./analyze 
-nano Analyzer.cpp
-nano Analyzer.h
-nano Analyzer.cpp
-nano analyze.cpp
-make
 ./analyze 
 nano Analyzer.h
 nano Analyzer.cpp
@@ -998,3 +783,218 @@ make
 make
 ./generate 
 root /home/public/data/JPsi/TnPpairs_MC.root
+ls
+cd macbzvz/
+ls
+cd zadatak2ispit/
+ls
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+cd
+cd ispit/
+ls
+cd z1
+ls
+make
+./analyze 
+root /home/public/data/JPsi/TnPpairs_MC.root
+cd vjezbaispit/kol
+ls
+root /home/public/data/JPsi/TnPpairs_MC.root
+cd
+cd macbzvz/zadatak1ispit/
+ls
+root /home/public/data/Toy/ChiSquareTree.root 
+cd
+cd vj9
+ls
+root /home/public/data/Lifetime/Lifetime.root
+.q
+root /home/public/data/Lifetime/Lifetime.root
+root /home/public/data/Toy/ToyTree.root"
+root /home/public/data/Toy/ToyTree.root
+cd
+cd macbzvz/zadatak1ispit/
+ls
+root /home/public/data/Toy/ChiSquareTree.root
+ls
+cd Ispit_2/
+ls
+mkdir z1
+nano Makefile
+cd
+cd Ispit_2/
+ls
+mkdir z2
+ls
+cd Ispit_2/
+ls
+cd z1
+ls
+rm Makefile/
+cd
+ls
+cd Ispit_2/
+LS
+ls
+cd macbzvz/
+ls
+cd zadatak2ispit/
+ls
+make
+./analyze 
+make
+./analyze 
+cd
+root /home/public/data/Toy/ToyTree.root 
+root /home/public/data/JPsi/TnPpairs_MC.root 
+root /home/public/data/Toy/ChiSquareTree.root 
+ls
+cd Ispit_2rok/
+ls
+cd z1
+ls
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+cd
+ls
+cd Ispit_2rok/
+ls
+cd z2
+ls
+root /home/public/data/Toy/Gauss.root
+ls
+cd
+cd Ispit_2rok/
+ls
+cd z2
+ls
+make
+./analyze 
+root /home/public/data/Toy/Gauss.root
+make
+./analyze 
+make
+./analyze 
+root /home/public/data/Toy/Gauss.root
+ls
+make
+./
+ls
+make
+./analyze 
+root /home/public/data/Height/Height.root 
+root /home/public/data/Toy/Gauss.root
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+root /home/public/data/Toy/Gauss.root
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+root /home/public/data/Toy/Gauss.root
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+cd
+git init
+git add -A

@@ -211,3 +211,67 @@
 2023-03-22 12:54:39.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
 2023-03-22 12:54:39.539 [info] > git rev-list --left-right --count main...origin/main [2ms]
 2023-03-22 12:54:40.031 [info] > git status -z -uall [475ms]
+2023-03-22 12:54:49.484 [info] > git add -A -- . [9455ms]
+2023-03-22 12:54:53.066 [info] > git -c user.useConfigOnly=true commit --quiet [3559ms]
+2023-03-22 12:54:53.066 [info] Error: Bad status code: 500
+    at ClientRequest.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/git-editor-main.js:1:426)
+    at Object.onceWrapper (node:events:646:26)
+    at ClientRequest.emit (node:events:526:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:618:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+    at Socket.socketOnData (node:_http_client:482:22)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+error: There was a problem with the editor '"/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/git-editor.sh"'.
+Please supply the message using either -m or -F option.
+2023-03-22 12:54:53.085 [info] > git config --get-all user.name [2ms]
+2023-03-22 12:54:53.104 [info] > git config --get-all user.email [2ms]
+2023-03-22 12:54:53.121 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:54:53.141 [info] > git remote --verbose [20ms]
+2023-03-22 12:54:53.142 [info] > git config --get commit.template [2ms]
+2023-03-22 12:54:53.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
+2023-03-22 12:54:53.179 [info] > git rev-list --left-right --count main...origin/main [2ms]
+2023-03-22 12:54:56.501 [info] > git status -z -uall [3305ms]
+2023-03-22 12:54:56.540 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:54:56.558 [info] > git remote --verbose [17ms]
+2023-03-22 12:54:56.559 [info] > git config --get commit.template [3ms]
+2023-03-22 12:54:56.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
+2023-03-22 12:54:56.597 [info] > git rev-list --left-right --count main...origin/main [2ms]
+2023-03-22 12:54:59.923 [info] > git status -z -uall [3310ms]
+2023-03-22 12:55:04.954 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:55:04.972 [info] > git remote --verbose [18ms]
+2023-03-22 12:55:04.973 [info] > git config --get commit.template [3ms]
+2023-03-22 12:55:04.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
+2023-03-22 12:55:05.012 [info] > git rev-list --left-right --count main...origin/main [2ms]
+2023-03-22 12:55:08.341 [info] > git status -z -uall [3312ms]
+2023-03-22 12:55:13.387 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:55:13.405 [info] > git remote --verbose [17ms]
+2023-03-22 12:55:13.406 [info] > git config --get commit.template [3ms]
+2023-03-22 12:55:13.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
+2023-03-22 12:55:13.442 [info] > git rev-list --left-right --count main...origin/main [2ms]
+2023-03-22 12:55:16.759 [info] > git status -z -uall [3299ms]
+2023-03-22 12:55:21.798 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:55:21.816 [info] > git remote --verbose [18ms]
+2023-03-22 12:55:21.817 [info] > git config --get commit.template [3ms]
+2023-03-22 12:55:21.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
+2023-03-22 12:55:21.854 [info] > git rev-list --left-right --count main...origin/main [3ms]
+2023-03-22 12:55:25.171 [info] > git status -z -uall [3300ms]
+2023-03-22 12:55:30.205 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:55:30.224 [info] > git remote --verbose [18ms]
+2023-03-22 12:55:30.224 [info] > git config --get commit.template [2ms]
+2023-03-22 12:55:30.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [2ms]
+2023-03-22 12:55:30.263 [info] > git rev-list --left-right --count main...origin/main [3ms]
+2023-03-22 12:55:33.580 [info] > git status -z -uall [3301ms]
+2023-03-22 12:55:38.619 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:55:38.637 [info] > git remote --verbose [18ms]
+2023-03-22 12:55:38.638 [info] > git config --get commit.template [2ms]
+2023-03-22 12:55:38.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
+2023-03-22 12:55:38.675 [info] > git rev-list --left-right --count main...origin/main [2ms]
+2023-03-22 12:55:42.013 [info] > git status -z -uall [3318ms]
+2023-03-22 12:55:47.055 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-22 12:55:47.073 [info] > git remote --verbose [18ms]
+2023-03-22 12:55:47.074 [info] > git config --get commit.template [3ms]
+2023-03-22 12:55:47.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
+2023-03-22 12:55:47.124 [info] > git rev-list --left-right --count main...origin/main [3ms]

@@ -1,0 +1,349 @@
+2023-03-22 12:56:43.382 [info] Extension host with pid 7135 started
+2023-03-22 12:56:43.423 [info] Lock '/home/mmihovilovic/.vscode-server/data/User/workspaceStorage/0a7a0945d1fa5cc71b7545ccaee6a01e/vscode.lock': Lock acquired.
+2023-03-22 12:56:43.682 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-22 12:56:43.685 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-22 12:56:43.840 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-22 12:56:43.841 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-22 12:56:44.220 [info] Eager extensions activated
+2023-03-22 12:56:44.220 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 12:56:44.221 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 12:56:48.894 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:56:53.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:00.978 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:10.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:19.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:29.319 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:38.767 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:48.206 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:57:57.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:58:07.061 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:58:16.499 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:58:25.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:58:35.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:58:44.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:58:54.243 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:59:03.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:59:13.100 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:59:22.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:59:31.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:59:41.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 12:59:50.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:00.229 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:09.655 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:19.094 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:28.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:37.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:47.360 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:00:56.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:01:06.212 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:01:15.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:01:25.059 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:01:30.338 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2023-03-22 13:01:34.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 336
+2023-03-22 13:01:35.900 [warning] DiagnosticCollection with name 'C/C++' does already exist.
+2023-03-22 13:01:43.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2023-03-22 13:01:53.406 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:02.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:12.357 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:21.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:31.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:40.694 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:50.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:02:59.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-03-22 13:03:09.063 [warning] [Decorations] CAPPING events from decorations provider vscode.git 336
+2023-03-22 13:03:18.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 336
+2023-03-22 13:03:27.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 336
+2023-03-22 13:03:37.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 336
+2023-03-22 13:03:46.900 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2023-03-22 13:03:56.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2023-03-22 13:04:03.441 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-03-22 13:04:05.793 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2023-03-22 13:04:15.240 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2023-03-22 13:04:24.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2023-03-22 13:04:34.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:04:43.620 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:04:52.663 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:05:01.698 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:05:10.744 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:05:19.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:05:28.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 338
+2023-03-22 13:05:37.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:05:46.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:05:55.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:04.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:14.006 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:23.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:32.109 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:41.134 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:50.172 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:06:59.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:07:08.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:07:17.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:09:42.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:09:51.250 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:00.274 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:09.332 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:18.377 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:27.461 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:36.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:45.538 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:10:54.558 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:03.607 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:12.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:21.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:30.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:39.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:48.854 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:11:57.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:12:06.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:12:15.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:12:24.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:12:34.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:12:43.116 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:12:52.144 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:01.183 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:10.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:19.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:28.338 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:37.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:46.403 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:13:55.436 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:04.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:13.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:22.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:31.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:40.642 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:49.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 339
+2023-03-22 13:14:55.912 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 13:14:55.914 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 13:14:55.915 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 13:14:58.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 342
+2023-03-22 13:15:07.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:15:16.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:15:25.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:15:34.949 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:15:43.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:15:53.048 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:16:02.103 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:16:11.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 343
+2023-03-22 13:16:20.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 344
+2023-03-22 13:16:29.242 [warning] [Decorations] CAPPING events from decorations provider vscode.git 344
+2023-03-22 13:16:38.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 344
+2023-03-22 13:16:47.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 344
+2023-03-22 13:16:56.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 344
+2023-03-22 13:17:05.444 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:17:14.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:17:23.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:17:32.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:17:41.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:17:50.651 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:17:59.685 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:18:08.757 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:18:17.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:18:26.854 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:18:35.908 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:18:44.958 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:18:54.009 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:03.049 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:12.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:21.139 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:30.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:39.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:48.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:19:57.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:20:06.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:20:15.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:20:24.458 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:20:33.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:20:42.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:20:51.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:21:00.646 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:21:09.694 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:21:18.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:28:15.611 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:28:24.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:28:33.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:28:42.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:28:51.813 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:29:00.851 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:29:09.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:29:40.156 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:29:49.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:29:58.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:30:07.362 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:30:16.423 [warning] [Decorations] CAPPING events from decorations provider vscode.git 345
+2023-03-22 13:30:25.472 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:30:34.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:30:43.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:30:52.622 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:31:01.684 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:31:10.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:31:19.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:33:48.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:33:57.763 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:34:06.803 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:34:15.865 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:34:24.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:34:33.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:34:42.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:34:52.063 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:01.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:10.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:19.231 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:28.270 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:37.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:46.364 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:35:55.452 [warning] [Decorations] CAPPING events from decorations provider vscode.git 346
+2023-03-22 13:36:04.517 [warning] [Decorations] CAPPING events from decorations provider vscode.git 349
+2023-03-22 13:36:13.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 349
+2023-03-22 13:36:22.632 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:36:31.684 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:36:40.745 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:36:49.796 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:36:58.838 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:37:07.926 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:37:17.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2023-03-22 13:37:22.724 [info] Extension host terminating: received terminate message from renderer
+2023-03-22 13:37:22.725 [info] Lock '/home/mmihovilovic/.vscode-server/data/User/workspaceStorage/0a7a0945d1fa5cc71b7545ccaee6a01e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-03-22 13:37:22.792 [error] Canceled: Canceled
+	at new l (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+	at a.O (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+	at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+	at c.g (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:108198)
+	at c.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at N.registerCommand.description (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:106867)
+	at c.h (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:108784)
+	at c.g (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107674)
+	at c.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at Object.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:117:30781)
+	at D (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1467127)
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at Object.m [as dispose] (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1481856)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1485923
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1485909)
+	at D.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at D.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at D.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1469257)
+	at D.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at k (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:10:12074)
+	at f.X (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:11284)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9088
+	at Array.map (<anonymous>)
+	at f.Q (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9075)
+	at f.terminate (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9347)
+	at u.terminate (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:122:18592)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:122:16502
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at t.E (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:18973)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:16961
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at u.acceptChunk (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:12638)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:11925
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at d.u (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:28891) setContext undefined
+2023-03-22 13:37:22.792 [error] Canceled: Canceled
+	at new l (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+	at a.O (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+	at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+	at c.g (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:108198)
+	at c.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at N.registerCommand.description (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:106867)
+	at c.h (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:108784)
+	at c.g (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107674)
+	at c.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at Object.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:117:30781)
+	at D (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1467127)
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at Object.m [as dispose] (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1481856)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1485923
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1485909)
+	at D.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at D.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at D.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1469257)
+	at D.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at k (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:10:12074)
+	at f.X (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:11284)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9088
+	at Array.map (<anonymous>)
+	at f.Q (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9075)
+	at f.terminate (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9347)
+	at u.terminate (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:122:18592)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:122:16502
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at t.E (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:18973)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:16961
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at u.acceptChunk (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:12638)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:11925
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at d.u (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:28891) setContext undefined
+2023-03-22 13:37:22.793 [error] Canceled: Canceled
+	at new l (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+	at a.O (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+	at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+	at c.g (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:108198)
+	at c.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at N.registerCommand.description (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:106867)
+	at c.h (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:108784)
+	at c.g (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107674)
+	at c.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at Object.executeCommand (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:117:30781)
+	at D (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1467127)
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at Object.m [as dispose] (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1481856)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1485923
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1485909)
+	at D.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at D.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at D.<anonymous> (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/extensions/git/dist/main.js:2:1469257)
+	at D.dispose (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at k (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:10:12074)
+	at f.X (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:11284)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9088
+	at Array.map (<anonymous>)
+	at f.Q (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9075)
+	at f.terminate (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:108:9347)
+	at u.terminate (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:122:18592)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:122:16502
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at t.E (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:18973)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:16961
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at u.acceptChunk (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:12638)
+	at /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:11925
+	at f.invoke (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at d.u (/home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/api/node/extensionHostProcess.js:72:28891) setContext undefined
+2023-03-22 13:37:22.878 [info] Extension host with pid 7135 exiting with code 0

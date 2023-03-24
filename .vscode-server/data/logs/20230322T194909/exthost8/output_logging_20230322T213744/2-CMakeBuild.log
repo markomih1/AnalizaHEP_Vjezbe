@@ -1,0 +1,7 @@
+[variant] Loaded new set of variants
+[kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-redhat-linux-gcc -v
+[kit] Found Kit: GCC 4.8.5 x86_64-redhat-linux
+[kit] Found Kit: GCC 4.8.5 x86_64-redhat-linux
+[rollbar] Unhandled exception: Unhandled Promise rejection: Persist config-on-open setting Canceled: Canceled {}

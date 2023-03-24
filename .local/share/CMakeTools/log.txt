@@ -1,0 +1,49 @@
+2023-03-22T20:40:11.269Z [debug] [main] Safe constructing new CMakeProject instance
+2023-03-22T20:40:11.271Z [debug] [variant] Constructing VariantManager
+2023-03-22T20:40:11.273Z [debug] [main] Constructing new CMakeProject instance
+2023-03-22T20:40:11.274Z [debug] [main] Starting CMake Tools second-phase init
+2023-03-22T20:40:11.589Z [info] [variant] Loaded new set of variants
+2023-03-22T20:40:11.615Z [debug] [kit] Not reading non-existent kits file: /home/mmihovilovic/.local/share/CMakeTools/cmake-tools-kits.json
+2023-03-22T20:40:11.654Z [debug] [kit] Not reading non-existent kits file: /home/mmihovilovic/.vscode/cmake-kits.json
+2023-03-22T20:40:11.660Z [debug] [main] CMakeProject instance initialization complete.
+2023-03-22T20:40:11.704Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2023-03-22T20:40:11.706Z [debug] [kitsController] Rescanning for kits
+2023-03-22T20:40:11.707Z [debug] [kit] Scanning for Kits on system
+2023-03-22T20:40:11.710Z [debug] [kit] Scanning directory /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/bin/remote-cli for compilers
+2023-03-22T20:40:11.710Z [debug] [kit] Skipping scan of not existing path /home/mmihovilovic/scripts
+2023-03-22T20:40:11.711Z [debug] [kit] Found 0 kits in directory /home/mmihovilovic/scripts
+2023-03-22T20:40:11.711Z [debug] [kit] Scanning directory /usr/sue/bin for compilers
+2023-03-22T20:40:11.712Z [debug] [kit] Scanning directory /usr/lib64/qt-3.3/bin for compilers
+2023-03-22T20:40:11.712Z [debug] [kit] Scanning directory /usr/local/bin for compilers
+2023-03-22T20:40:11.712Z [debug] [kit] Scanning directory /usr/bin for compilers
+2023-03-22T20:40:11.713Z [debug] [kit] Scanning directory /usr/local/sbin for compilers
+2023-03-22T20:40:11.713Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2023-03-22T20:40:11.713Z [debug] [kit] Scanning directory /opt/puppetlabs/bin for compilers
+2023-03-22T20:40:11.714Z [debug] [kit] Skipping scan of not existing path /home/mmihovilovic/.local/bin
+2023-03-22T20:40:11.714Z [debug] [kit] Found 0 kits in directory /home/mmihovilovic/.local/bin
+2023-03-22T20:40:11.714Z [debug] [kit] Skipping scan of not existing path /home/mmihovilovic/bin
+2023-03-22T20:40:11.715Z [debug] [kit] Found 0 kits in directory /home/mmihovilovic/bin
+2023-03-22T20:40:11.715Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2023-03-22T20:40:11.715Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2023-03-22T20:40:11.718Z [debug] [kit] Found 0 kits in directory /home/mmihovilovic/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/bin/remote-cli
+2023-03-22T20:40:11.719Z [debug] [kit] Found 0 kits in directory /usr/sue/bin
+2023-03-22T20:40:11.725Z [debug] [kit] Found 0 kits in directory /usr/lib64/qt-3.3/bin
+2023-03-22T20:40:11.726Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2023-03-22T20:40:11.726Z [debug] [kit] Found 0 kits in directory /usr/local/sbin
+2023-03-22T20:40:11.727Z [debug] [kit] Found 0 kits in directory /opt/puppetlabs/bin
+2023-03-22T20:40:11.824Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2023-03-22T20:40:11.918Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2023-03-22T20:40:11.948Z [info] [proc] Executing command: /usr/bin/gcc -v
+2023-03-22T20:40:12.190Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-redhat-linux-gcc
+2023-03-22T20:40:12.191Z [info] [proc] Executing command: /usr/bin/x86_64-redhat-linux-gcc -v
+2023-03-22T20:40:12.306Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-redhat-linux-gcc
+2023-03-22T20:40:12.309Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2023-03-22T20:40:12.313Z [debug] [kit] Found 2 kits in directory /usr/bin
+2023-03-22T20:40:12.314Z [info] [kit] Found Kit: GCC 4.8.5 x86_64-redhat-linux
+2023-03-22T20:40:12.315Z [info] [kit] Found Kit: GCC 4.8.5 x86_64-redhat-linux
+2023-03-22T20:40:12.318Z [debug] [kitsController] Saving kits to /home/mmihovilovic/.local/share/CMakeTools/cmake-tools-kits.json
+2023-03-22T20:40:12.319Z [debug] [kitsController] Saving new kits to /home/mmihovilovic/.local/share/CMakeTools/cmake-tools-kits.json
+2023-03-22T20:40:12.383Z [debug] [main] Not starting CMake driver: no kit selected
+2023-03-22T20:40:33.236Z [debug] [main] Not starting CMake driver: no kit selected
+2023-03-22T20:46:05.721Z [debug] [extension] Deactivate CMakeTools
+2023-03-22T20:46:05.747Z [fatal] [rollbar] Unhandled exception: Unhandled Promise rejection: Persist config-on-open setting Canceled: Canceled {}

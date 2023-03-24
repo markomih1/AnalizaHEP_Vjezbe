@@ -1,0 +1,53 @@
+2023-03-23 15:34:13.085 [info] 
+
+
+
+
+2023-03-23 15:34:13.158 [info] Extension host agent started.
+2023-03-23 15:34:13.356 [info] [127.0.0.1][e294334c][ManagementConnection] New connection established.
+2023-03-23 15:34:13.394 [info] [127.0.0.1][73e52b41][ExtensionHostConnection] New connection established.
+2023-03-23 15:34:13.538 [info] [127.0.0.1][73e52b41][ExtensionHostConnection] <24666> Launched Extension Host Process.
+2023-03-23 15:34:17.551 [info] Getting Manifest... ms-vscode.cpptools
+2023-03-23 15:34:18.945 [info] Installing extension: ms-vscode.cpptools
+2023-03-23 15:34:24.696 [info] Extension signature verification: ms-vscode.cpptools. Verification status: Verified.
+2023-03-23 15:34:28.562 [info] Extracted extension to /home/mmihovilovic/.vscode-server/extensions/.8b718d9c-cf31-4f94-8d82-206683a3a270: ms-vscode.cpptools
+2023-03-23 15:34:28.619 [info] Renamed to /home/mmihovilovic/.vscode-server/extensions/ms-vscode.cpptools-1.14.5-linux-x64
+2023-03-23 15:34:28.643 [info] Extracting extension completed. ms-vscode.cpptools
+2023-03-23 15:34:28.683 [info] Extension installed successfully: ms-vscode.cpptools
+2023-03-23 15:34:28.730 [info] Marked extension as uninstalled ms-vscode.cpptools-1.14.4-linux-x64
+2023-03-23 15:39:13.160 [info] New EH opened, aborting shutdown
+2023-03-23 15:40:26.234 [info] [127.0.0.1][e294334c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-23 15:40:26.401 [info] [127.0.0.1][73e52b41][ExtensionHostConnection] <24666> Extension Host Process exited with code: 0, signal: null.
+2023-03-23 15:40:26.401 [info] Last EH closed, waiting before shutting down
+2023-03-23 15:40:38.424 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-23 15:40:38.424 [info] Cancelling previous shutdown timeout
+2023-03-23 15:40:38.562 [info] [127.0.0.1][e87455ab][ManagementConnection] New connection established.
+2023-03-23 15:40:38.623 [info] [127.0.0.1][9143178d][ExtensionHostConnection] New connection established.
+2023-03-23 15:40:38.657 [info] [127.0.0.1][9143178d][ExtensionHostConnection] <25623> Launched Extension Host Process.
+2023-03-23 15:42:15.544 [info] [127.0.0.1][e87455ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-23 15:42:15.690 [info] [127.0.0.1][9143178d][ExtensionHostConnection] <25623> Extension Host Process exited with code: 0, signal: null.
+2023-03-23 15:42:15.691 [info] Cancelling previous shutdown timeout
+2023-03-23 15:42:15.691 [info] Last EH closed, waiting before shutting down
+2023-03-23 15:43:29.211 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-23 15:43:29.211 [info] Cancelling previous shutdown timeout
+2023-03-23 15:43:29.380 [info] [127.0.0.1][1a5ca461][ManagementConnection] New connection established.
+2023-03-23 15:43:29.432 [info] [127.0.0.1][3adb91c0][ExtensionHostConnection] New connection established.
+2023-03-23 15:43:29.449 [info] [127.0.0.1][3adb91c0][ExtensionHostConnection] <26184> Launched Extension Host Process.
+2023-03-23 15:46:22.238 [info] [127.0.0.1][1a5ca461][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-23 15:46:22.292 [info] [127.0.0.1][3adb91c0][ExtensionHostConnection] <26184> Extension Host Process exited with code: 0, signal: null.
+2023-03-23 15:46:22.292 [info] Cancelling previous shutdown timeout
+2023-03-23 15:46:22.292 [info] Last EH closed, waiting before shutting down
+2023-03-23 15:46:33.278 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-23 15:46:33.278 [info] Cancelling previous shutdown timeout
+2023-03-23 15:46:33.416 [info] [127.0.0.1][7418547b][ManagementConnection] New connection established.
+2023-03-23 15:46:33.498 [info] [127.0.0.1][88d10049][ExtensionHostConnection] New connection established.
+2023-03-23 15:46:33.517 [info] [127.0.0.1][88d10049][ExtensionHostConnection] <26700> Launched Extension Host Process.
+2023-03-23 15:51:33.279 [info] New EH opened, aborting shutdown
+2023-03-23 19:35:40.461 [info] [127.0.0.1][c00c2923][ManagementConnection] New connection established.
+2023-03-23 19:35:40.490 [info] [127.0.0.1][b25e7ab0][ExtensionHostConnection] New connection established.
+2023-03-23 19:35:40.506 [info] [127.0.0.1][b25e7ab0][ExtensionHostConnection] <11403> Launched Extension Host Process.
+2023-03-23 19:40:40.858 [info] [127.0.0.1][88d10049][ExtensionHostConnection] <26700> Extension Host Process exited with code: 0, signal: null.
+2023-03-23 19:58:19.972 [info] [127.0.0.1][c00c2923][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-23 19:58:20.122 [info] [127.0.0.1][b25e7ab0][ExtensionHostConnection] <11403> Extension Host Process exited with code: 0, signal: null.
+2023-03-23 19:58:20.123 [info] Last EH closed, waiting before shutting down
+2023-03-23 20:03:20.124 [info] Last EH closed, shutting down

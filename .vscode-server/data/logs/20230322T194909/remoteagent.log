@@ -1,0 +1,56 @@
+2023-03-22 19:49:09.853 [info] 
+
+
+
+
+2023-03-22 19:49:09.921 [info] Extension host agent started.
+2023-03-22 19:49:10.072 [info] [127.0.0.1][d3fdfca7][ManagementConnection] New connection established.
+2023-03-22 19:49:10.132 [info] [127.0.0.1][31149c5b][ExtensionHostConnection] New connection established.
+2023-03-22 19:49:10.271 [info] [127.0.0.1][31149c5b][ExtensionHostConnection] <28075> Launched Extension Host Process.
+2023-03-22 19:54:09.923 [info] New EH opened, aborting shutdown
+2023-03-22 20:05:15.926 [info] [127.0.0.1][d3fdfca7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-22 20:05:16.088 [info] [127.0.0.1][31149c5b][ExtensionHostConnection] <28075> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 20:05:16.089 [info] Last EH closed, waiting before shutting down
+2023-03-22 20:05:24.368 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-22 20:05:24.368 [info] Cancelling previous shutdown timeout
+2023-03-22 20:05:24.450 [info] [127.0.0.1][5f888450][ManagementConnection] New connection established.
+2023-03-22 20:05:24.457 [info] [127.0.0.1][3a1957c2][ExtensionHostConnection] New connection established.
+2023-03-22 20:05:24.470 [info] [127.0.0.1][3a1957c2][ExtensionHostConnection] <31393> Launched Extension Host Process.
+2023-03-22 20:10:24.368 [info] New EH opened, aborting shutdown
+2023-03-22 20:49:53.462 [info] [127.0.0.1][5f888450][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-22 20:49:53.654 [info] [127.0.0.1][3a1957c2][ExtensionHostConnection] <31393> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 20:49:53.655 [info] Last EH closed, waiting before shutting down
+2023-03-22 20:50:00.542 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-22 20:50:00.542 [info] Cancelling previous shutdown timeout
+2023-03-22 20:50:00.629 [info] [127.0.0.1][153c6da8][ManagementConnection] New connection established.
+2023-03-22 20:50:00.647 [info] [127.0.0.1][c893a59e][ExtensionHostConnection] New connection established.
+2023-03-22 20:50:00.660 [info] [127.0.0.1][c893a59e][ExtensionHostConnection] <5932> Launched Extension Host Process.
+2023-03-22 20:55:00.543 [info] New EH opened, aborting shutdown
+2023-03-22 20:58:06.891 [info] [127.0.0.1][e80af3e1][ManagementConnection] New connection established.
+2023-03-22 20:58:06.971 [info] [127.0.0.1][3ca0fd93][ExtensionHostConnection] New connection established.
+2023-03-22 20:58:06.987 [info] [127.0.0.1][3ca0fd93][ExtensionHostConnection] <7571> Launched Extension Host Process.
+2023-03-22 20:58:15.243 [info] [127.0.0.1][e80af3e1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-22 20:58:15.273 [info] [127.0.0.1][3ca0fd93][ExtensionHostConnection] <7571> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 20:58:22.416 [info] [127.0.0.1][404b9d97][ManagementConnection] New connection established.
+2023-03-22 20:58:22.427 [info] [127.0.0.1][d16022bf][ExtensionHostConnection] New connection established.
+2023-03-22 20:58:22.446 [info] [127.0.0.1][d16022bf][ExtensionHostConnection] <7727> Launched Extension Host Process.
+2023-03-22 20:58:36.381 [info] [127.0.0.1][404b9d97][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-22 20:58:36.409 [info] [127.0.0.1][d16022bf][ExtensionHostConnection] <7727> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 20:58:42.721 [info] [127.0.0.1][52063942][ManagementConnection] New connection established.
+2023-03-22 20:58:42.730 [info] [127.0.0.1][74e29de0][ExtensionHostConnection] New connection established.
+2023-03-22 20:58:42.747 [info] [127.0.0.1][74e29de0][ExtensionHostConnection] <7902> Launched Extension Host Process.
+2023-03-22 21:03:07.200 [info] [127.0.0.1][c893a59e][ExtensionHostConnection] <5932> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 21:11:07.425 [info] [127.0.0.1][74e29de0][ExtensionHostConnection] The client has reconnected.
+2023-03-22 21:12:38.966 [info] [127.0.0.1][687a4ca4][ManagementConnection] New connection established.
+2023-03-22 21:12:38.971 [info] [127.0.0.1][8da1d0e1][ExtensionHostConnection] New connection established.
+2023-03-22 21:12:38.985 [info] [127.0.0.1][8da1d0e1][ExtensionHostConnection] <9094> Launched Extension Host Process.
+2023-03-22 21:17:39.381 [info] [127.0.0.1][74e29de0][ExtensionHostConnection] <7902> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 21:27:48.425 [info] [127.0.0.1][8da1d0e1][ExtensionHostConnection] The client has reconnected.
+2023-03-22 21:37:43.872 [info] [127.0.0.1][63a5c178][ManagementConnection] New connection established.
+2023-03-22 21:37:43.885 [info] [127.0.0.1][07023d19][ExtensionHostConnection] New connection established.
+2023-03-22 21:37:43.901 [info] [127.0.0.1][07023d19][ExtensionHostConnection] <9990> Launched Extension Host Process.
+2023-03-22 21:42:44.303 [info] [127.0.0.1][8da1d0e1][ExtensionHostConnection] <9094> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 21:46:05.675 [info] [127.0.0.1][63a5c178][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-22 21:46:05.888 [info] [127.0.0.1][07023d19][ExtensionHostConnection] <9990> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 21:46:05.888 [info] Last EH closed, waiting before shutting down
+2023-03-22 21:51:05.889 [info] Last EH closed, shutting down
