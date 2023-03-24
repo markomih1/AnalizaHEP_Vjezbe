@@ -1,0 +1,30 @@
+2023-03-20 09:42:58.896 [info] 
+
+
+
+
+2023-03-20 09:42:58.952 [info] Extension host agent started.
+2023-03-20 09:42:59.192 [info] [127.0.0.1][83cd570d][ManagementConnection] New connection established.
+2023-03-20 09:42:59.231 [info] [127.0.0.1][351328a3][ExtensionHostConnection] New connection established.
+2023-03-20 09:42:59.243 [info] [127.0.0.1][351328a3][ExtensionHostConnection] <19601> Launched Extension Host Process.
+2023-03-20 09:43:58.013 [info] Getting Manifest... zhang-renyang.chat-gpt
+2023-03-20 09:43:58.202 [info] Installing extension: zhang-renyang.chat-gpt
+2023-03-20 09:44:00.734 [info] Extension signature verification: zhang-renyang.chat-gpt. Verification status: Verified.
+2023-03-20 09:44:00.794 [info] Extracted extension to /home/mmihovilovic/.vscode-server/extensions/.c145998c-f912-426a-b516-1cd86193fec8: zhang-renyang.chat-gpt
+2023-03-20 09:44:00.839 [info] Renamed to /home/mmihovilovic/.vscode-server/extensions/zhang-renyang.chat-gpt-1.1.5
+2023-03-20 09:44:00.842 [info] Extracting extension completed. zhang-renyang.chat-gpt
+2023-03-20 09:44:00.882 [info] Extension installed successfully: zhang-renyang.chat-gpt
+2023-03-20 09:47:58.952 [info] New EH opened, aborting shutdown
+2023-03-20 09:50:37.760 [info] [127.0.0.1][83cd570d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-20 09:50:37.912 [info] [127.0.0.1][351328a3][ExtensionHostConnection] <19601> Extension Host Process exited with code: 0, signal: null.
+2023-03-20 09:50:37.913 [info] Last EH closed, waiting before shutting down
+2023-03-20 09:51:13.050 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-20 09:51:13.050 [info] Cancelling previous shutdown timeout
+2023-03-20 09:51:13.190 [info] [127.0.0.1][7cc692fc][ManagementConnection] New connection established.
+2023-03-20 09:51:13.266 [info] [127.0.0.1][937eea70][ExtensionHostConnection] New connection established.
+2023-03-20 09:51:13.282 [info] [127.0.0.1][937eea70][ExtensionHostConnection] <20626> Launched Extension Host Process.
+2023-03-20 09:52:18.586 [info] [127.0.0.1][7cc692fc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-20 09:52:18.767 [info] [127.0.0.1][937eea70][ExtensionHostConnection] <20626> Extension Host Process exited with code: 0, signal: null.
+2023-03-20 09:52:18.767 [info] Cancelling previous shutdown timeout
+2023-03-20 09:52:18.767 [info] Last EH closed, waiting before shutting down
+2023-03-20 09:57:18.769 [info] Last EH closed, shutting down

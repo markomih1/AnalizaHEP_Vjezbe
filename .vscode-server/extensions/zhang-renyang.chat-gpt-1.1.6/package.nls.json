@@ -1,0 +1,10 @@
+{
+	"chatgpt.command_query": "Ask a question",
+	"chatgpt.command_add_tests": "Please add a test for this code for me",
+	"chatgpt.command_why_broken": "Why is there a bug in this code?",
+	"chatgpt.command_explain_code": "Please help me explain the code?",
+	"chatgpt.command_refactor_code": "Please refactor this code and tell me what did you change?",
+	"chatgpt.command_update_apikey": "Update APIKey",
+	"chatgpt.command_display_language": "Set language",
+	"chatgpt.command_list_clear": "Clear list"
+}

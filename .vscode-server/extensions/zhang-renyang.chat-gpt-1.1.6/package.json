@@ -1,0 +1,194 @@
+{
+	"name": "chat-gpt",
+	"icon": "images/icon.png",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/zhangrenyang/chat-gpt"
+	},
+	"publisher": "zhang-renyang",
+	"displayName": "ChatGPT",
+	"description": "This is a multi-language vscode plug-in for ChatGPT",
+	"version": "1.1.6",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onView:chat-gpt.view",
+		"onCommand:chat-gpt.askGPT",
+		"onCommand:chat-gpt.whyBroken",
+		"onCommand:chat-gpt.explainPls",
+		"onCommand:chat-gpt.refactor",
+		"onCommand:chat-gpt.addTests",
+		"onCommand:chat-gpt.updateAPIKey",
+		"onCommand:chat-gpt.setLang"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "chat-gpt",
+			"properties": {
+				"chat-gpt.lang": {
+					"type": "string",
+					"default": "en",
+					"enum": [
+						"en",
+						"cn"
+					],
+					"enumItemLabels": [
+						"English",
+						"简体中文"
+					],
+					"description": "Set the language of chat-gpt."
+				}
+			}
+		},
+		"menus": {
+			"view/title": [
+				{
+					"command": "chat-gpt.clearList",
+					"when": "view == chat-gpt.view",
+					"group": "navigation"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "chat-gpt.whyBroken",
+					"group": "chat-gpt-menu-group@1"
+				},
+				{
+					"command": "chat-gpt.explainPls",
+					"group": "chat-gpt-menu-group@2"
+				},
+				{
+					"command": "chat-gpt.refactor",
+					"group": "chat-gpt-menu-group@3"
+				},
+				{
+					"command": "chat-gpt.addTests",
+					"group": "chat-gpt-menu-group@4"
+				},
+				{
+					"command": "chat-gpt.updateAPIKey",
+					"group": "chat-gpt-menu-group@5"
+				},
+				{
+					"command": "chat-gpt.setLang",
+					"group": "chat-gpt-menu-group@6"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "chat-gpt.clearList",
+				"title": "%chatgpt.command_list_clear%",
+				"category": "ChatGPT",
+				"icon": {
+					"dark": "images/dark/clear.svg",
+					"light": "images/light/clear.svg"
+				}
+			},
+			{
+				"command": "chat-gpt.updateAPIKey",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_update_apikey%"
+			},
+			{
+				"command": "chat-gpt.setLang",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_display_language%"
+			},
+			{
+				"command": "chat-gpt.askGPT",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_query%"
+			},
+			{
+				"command": "chat-gpt.addTests",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_add_tests%"
+			},
+			{
+				"command": "chat-gpt.whyBroken",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_why_broken%"
+			},
+			{
+				"command": "chat-gpt.explainPls",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_explain_code%"
+			},
+			{
+				"command": "chat-gpt.refactor",
+				"category": "ChatGPT",
+				"title": "%chatgpt.command_refactor_code%"
+			}
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "chat-gpt",
+					"title": "ChatGPT",
+					"icon": "images/chatgpt.png"
+				}
+			]
+		},
+		"views": {
+			"chat-gpt": [
+				{
+					"type": "webview",
+					"id": "chat-gpt.view",
+					"name": "ChatGPT"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run package",
+		"compile": "webpack",
+		"watch": "webpack --watch",
+		"package": "webpack --mode production --devtool hidden-source-map",
+		"compile-tests": "tsc -p . --outDir out",
+		"watch-tests": "tsc -p . -w --outDir out",
+		"pretest": "npm run compile-tests && npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/request-promise": "^4.1.48",
+		"@types/vscode": "^1.70.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"@vscode/test-electron": "^2.2.0",
+		"eslint": "^8.28.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.1.0",
+		"ts-loader": "^9.4.1",
+		"typescript": "^4.9.3",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.0"
+	},
+	"dependencies": {
+		"axios": "^1.2.1",
+		"axios-retry": "^3.4.0",
+		"chatgpt": "^1.4.0",
+		"i18next": "^22.4.9"
+	},
+	"__metadata": {
+		"id": "90065da7-e1da-4bd6-b033-2ff2096f0924",
+		"publisherId": "fceb7e76-9477-489c-afe4-259814322b1c",
+		"publisherDisplayName": "zhang-renyang",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1679429614350,
+		"preRelease": false
+	}
+}

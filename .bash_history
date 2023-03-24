@@ -1,127 +1,3 @@
-cd
-ls
-mkdir vj8
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-nano Makefil
-nano Makefile
-make
-./analyze 
-git commit -m "fiit"
-git add --all
-git push
-git init
-git commit -m "asd" 
-git add --A
-git add --a
-git push
-ls
-cd vj8
-ls
-cd
-mv K* vj8
-ls
-mv L* vj8
-mv A* vj8
-ls
-cd a* vj8
-cd an* vj8
-cd analyze.cpp* vj8
-mv  analyze vj8
-ls
-mv M* vj8
-ls
-cd vj8
-ls
-make
-./analyze 
-cd
-git init
-git commit -m "dswa" 
-git add --a
-git push
-git add --a
-git commit -m "dswa" 
-git push
-LS
-ls
-cd vj8
-ls
-nano Analyzer.cpp
-nano analyze.cpp
-nano Analyzer.h
-make
-./analyze 
-ls
-cd
-git init
-git add --a
-git commit -m "as"
-git push
-git pull
-a
-git push
-cd vj8
-ls
-nano Analyzer.cpp
-nano Analyzer.h
-nano analyze.cpp
-make
-ls
-git add --a
-git commit -m "as"
-git push
-./analyze 
-git add --a
-git commit -m "asd"
-git push
-cd
-mkdir vj9
-c vj9
-ls
-cd vj9
-nano Analyzer.cpp
-cd
-nano /home/public/data/Lifetime/
-nano /home/public/data/Lifetime/Lifetime.root
-root /home/public/data/Lifetime/Lifetime.root
-cd vj9
-ls
-nano Analyzer.cpp 
-nano Analyzer.h
-nano analysis.cpp
-nano analyze.cpp
-nano Makefile
-makeđ
-make
-./analyze 
-ls
-cd
-git init
-git add --a
-git commit -m "qwdas"
-git pushđ
-git push
-cd vj9
-ls
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git init
-git add --a
-git commit -m "sdax"
-git push
-cd vj9
-nano Analyzer.
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git inti
-git init
-git add --a
 git commit -m "xwasx"
 git push
 ls
@@ -998,3 +874,127 @@ git init
 git add -A
 git commit -m "neki opis"
 git push
+cd
+ls
+git init
+git add -A
+git commit -m "adsdas"
+git push
+ls
+cd z1
+cd ispit/
+ls
+cd z1
+ls
+make
+root /home/public/data/Toy/ChiSquareTree.root 
+ls
+cd macbzvz/zadatak1ispit/
+root /home/public/data/Toy/ChiSquareTree.root 
+ls
+make
+ls
+cd macbzvz/
+ls
+cd zadatak1ispit/
+LS
+ls
+make
+ls
+cd macbzvz/
+ls
+cd zadatak1ispit/
+ls
+./analyze
+./analyze.o
+ls
+cd macbzvz/zadatak1ispit/
+make
+ls
+cd macbzvz/zadatak1ispit/
+ls
+make
+ls
+cd macbzvz/
+ls
+cd zadatak2ispit/
+ls
+make
+la
+ls
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+-/
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+ks
+ls
+cd vj6
+ls
+root /home/public/data/ggH125/ZZ4lAnalysis.root
+ls
+cd macbzvz/
+ls
+cd l
+cd kol2/
+ls
+dc zad2/
+ls
+nano Analyzer.cpp
+cd zad2/
+ls
+nano Analyzer.cpp
+cd
+ls
+cd vj9
+ls
+nano Analyzer.cpp
+root /home/public/data/Lifetime/Lifetime.root
+cd kol1
+ls
+cd z3
+lks
+ls
+make
+./generate 
+make
+./generate 
+make
+./generate 
+make
+./generate 
+make
+./generate 
+make
+./generate 
+make
+./generate 
+root /home/public/data/JPsi/TnPpairs_MC.root

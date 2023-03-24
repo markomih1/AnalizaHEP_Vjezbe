@@ -1,0 +1,6 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "always",
+    "git.ignoreLegacyWarning": true,
+    "window.zoomLevel": -1
+}

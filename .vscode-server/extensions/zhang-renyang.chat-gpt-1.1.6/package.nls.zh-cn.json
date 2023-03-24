@@ -1,0 +1,10 @@
+{
+	"chatgpt.command_query": "发起提问",
+	"chatgpt.command_add_tests": "请为我这段代码添加测试",
+	"chatgpt.command_why_broken": "为什么这段代码出现了BUG?",
+	"chatgpt.command_explain_code": "请帮我解释一下代码?",
+	"chatgpt.command_refactor_code": "请重构这段代码并告诉我你改动了哪里?",
+	"chatgpt.command_update_apikey": "更新 APIKey",
+	"chatgpt.command_display_language": "修改显示语言",
+	"chatgpt.command_list_clear": "清空列表"
+}

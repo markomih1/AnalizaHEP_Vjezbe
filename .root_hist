@@ -103,3 +103,65 @@ TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
 TTree->Print()
 tree->Print()
 .q
+new TBrowser
+.q
+.ls
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Lifetime/Lifetime.root")
+.ls
+Tree->Print()
+.Q
+TFile *_file0 = TFile::Open("/home/public/data/Height/Height.root")
+.LS
+.ls
+Tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ToyTree.root")
+.ls
+tree->Print()
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+tree->pRINT()
+tree->Print()
+_file->ls()
+_file0->ls()
+TTree->MakeClass("Analyzer")
+tree->MakeClass("Analyzer")
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+tree->MakeClass("Analyzer")
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+.ls
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ChiSquareTree.root")
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Toy/ToyTree.root")
+.ls
+tree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/ggH125/ZZ4lAnalysis.root")
+.ls
+ZZTree->MakeClass("BARAC")
+ZZTree->Print()
+.q
+TFile *_file0 = TFile::Open("/home/public/data/ggH125/ZZ4lAnalysis.root")
+.ls
+_file0->cd("ZZTree")
+.ls
+candTree->MakeClass("BARAC")
+.ls
+.q
+TFile *_file0 = TFile::Open("/home/public/data/Lifetime/Lifetime.root")
+.ls
+Tree->Print()
+TFile *_file0 = TFile::Open("/home/public/data/JPsi/TnPpairs_MC.root")
+.ls
+Events->Print()
+.q

@@ -1,0 +1,24 @@
+2023-03-22 11:30:22.796 [info] 
+
+
+
+
+2023-03-22 11:30:22.852 [info] Extension host agent started.
+2023-03-22 11:30:23.055 [info] [127.0.0.1][04d766af][ManagementConnection] New connection established.
+2023-03-22 11:30:23.081 [info] [127.0.0.1][00a28415][ExtensionHostConnection] New connection established.
+2023-03-22 11:30:23.100 [info] Deleted from disk zhang-renyang.chat-gpt /home/mmihovilovic/.vscode-server/extensions/zhang-renyang.chat-gpt-1.1.5
+2023-03-22 11:30:23.156 [info] [127.0.0.1][00a28415][ExtensionHostConnection] <2306> Launched Extension Host Process.
+2023-03-22 11:35:22.853 [info] New EH opened, aborting shutdown
+2023-03-22 12:09:35.982 [info] [127.0.0.1][09e39656][ManagementConnection] New connection established.
+2023-03-22 12:09:36.078 [info] [127.0.0.1][607d17e4][ExtensionHostConnection] New connection established.
+2023-03-22 12:09:36.103 [info] [127.0.0.1][607d17e4][ExtensionHostConnection] <3718> Launched Extension Host Process.
+2023-03-22 12:14:36.336 [info] [127.0.0.1][00a28415][ExtensionHostConnection] <2306> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 12:22:43.162 [info] [127.0.0.1][607d17e4][ExtensionHostConnection] The client has reconnected.
+2023-03-22 12:37:28.586 [info] [127.0.0.1][f5e762a9][ManagementConnection] New connection established.
+2023-03-22 12:37:28.670 [info] [127.0.0.1][12874c02][ExtensionHostConnection] New connection established.
+2023-03-22 12:37:28.686 [info] [127.0.0.1][12874c02][ExtensionHostConnection] <5037> Launched Extension Host Process.
+2023-03-22 12:42:29.018 [info] [127.0.0.1][607d17e4][ExtensionHostConnection] <3718> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 12:43:43.097 [info] [127.0.0.1][f5e762a9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-22 12:43:43.253 [info] [127.0.0.1][12874c02][ExtensionHostConnection] <5037> Extension Host Process exited with code: 0, signal: null.
+2023-03-22 12:43:43.253 [info] Last EH closed, waiting before shutting down
+2023-03-22 12:48:43.253 [info] Last EH closed, shutting down

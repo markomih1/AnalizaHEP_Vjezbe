@@ -1,0 +1,21 @@
+2023-03-16 20:53:52.600 [info] Log level: Info
+2023-03-16 20:53:52.600 [info] Validating found git in: "git"
+2023-03-16 20:53:52.600 [info] Using git "1.8.3.1" from "git"
+2023-03-16 20:53:52.600 [info] > git rev-parse --show-toplevel [17ms]
+2023-03-16 20:53:52.600 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-03-16 20:53:52.600 [info] Open repository: /home/mmihovilovic
+2023-03-16 20:53:52.601 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-16 20:53:52.601 [info] > git rev-parse --show-toplevel [96ms]
+2023-03-16 20:53:52.601 [info] > git config --get commit.template [31ms]
+2023-03-16 20:53:52.601 [info] > git remote --verbose [45ms]
+2023-03-16 20:53:52.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
+2023-03-16 20:53:52.601 [info] > git rev-list --left-right --count main...origin/main [4ms]
+2023-03-16 20:53:52.603 [info] > git status -z -uall [473ms]
+2023-03-16 20:53:52.634 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/mmihovilovic/--git-common-dir/config'
+2023-03-16 20:53:52.657 [info] > git config --get commit.template [6ms]
+2023-03-16 20:53:52.658 [info] > git remote --verbose [23ms]
+2023-03-16 20:53:52.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [14ms]
+2023-03-16 20:53:52.828 [info] > git rev-list --left-right --count main...origin/main [103ms]
+2023-03-16 20:53:52.953 [info] > git check-ignore -v -z --stdin [22ms]
+2023-03-16 20:53:53.315 [info] > git status -z -uall [472ms]
+2023-03-16 20:54:17.895 [info] > git check-ignore -v -z --stdin [9ms]

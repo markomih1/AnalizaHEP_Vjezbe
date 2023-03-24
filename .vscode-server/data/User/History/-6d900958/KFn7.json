@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "Analyzer.C": "cpp",
+        "sstream": "cpp"
+    }
+}
