@@ -1,59 +1,3 @@
-git push
-~cd vj14
-ls
-cd vj14
-cd z1
-nano Analyzer.cpp
-make
-./analyze 
-cd
-git add -A
-git commit -m "dwa"
-git push
-ls
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-ls
-root /home/public/data/ggH125/ZZ4lAnalysis.root
-root /home/public/data/Lifetime/Lifetime.root
-ls
-cd vj14
-ls
-cd z1
-ls
-nano Analyzer.cpp
-ls
-mkdir vjezbaispit
-cd vjezbaispit
-mkdir kol1
-cd kol1
-mkdir z1
-cd z1
-ls
-cd vjezbaispit/
-ls
-cd kol2
-ls
-eog zad1.pdf
-open zad1.pdf
-ls
-cd z1
-ls
-nano Analyzer.cpp
-make
-./analyze 
-ls
-geoff$ slika.png
-eog slika.png
-nano Analyzer.cpp
-make
-./analyze 
-ls
-eog slika.jpg
-ls
-cd vjezbaispit/kol1/z1
-ls
-nano Makefile
-nano Analyzer.cpp
 nano Analyzer.h
 nano Analyzer.cpp
 nano analyze.cpp
@@ -998,3 +942,59 @@ git init
 git add -A
 git commit -m "ispit2"
 git push
+ls
+cd Ispit_2rok/
+ls
+cd z2
+ls
+cd
+git init
+git commit -m "ispit2"
+git add -A
+git push
+ls
+cd Ispit_2rok/
+cd z2
+ls
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+mmake
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+make
+./analyze 
+cd
+git init
+git commit "ispit2"
+git commit -m "ispit2"
+git add -A
+git push
+make
+cd Ispit_2rok/
+cd z2
+ls
+make
+./analyze 
+cd

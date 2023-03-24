@@ -85,8 +85,8 @@ void Analyzer::CompareHypothesis()
   double type2Error = 0.0;
   double targetError = 0.7;
   int criticalBin = 0;
-  for (int i = 1; i <= testStatistic_H1->GetNbinsX(); ++i) {
-      type2Error += testStatistic_H1->GetBinContent(i);
+  for (int i = 1; i <= histAltTestStat->GetNbinsX(); ++i) {
+      type2Error += histAltTestStat->GetBinContent(i);
       if (type2Error >= targetError) {
           criticalBin = i;
           break;
